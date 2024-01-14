@@ -7,8 +7,15 @@
     text-decoration: none;
     
 }
+body{
+    
+}
 
-
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .spase1{
     width: 100%;
     height: 35px;
@@ -305,32 +312,38 @@ nav .links ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .conBody .topCatBar{
-    width: 75%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #000000;
     padding: 10px;
+    box-sizing: border-box;
+    transition: all 1s ease-in-out;
 }
 .conBody .topCatBar .topCatBarCover{
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+    transition: all 0.5s ease-in-out;
+    
 }
 .conBody .topCatBar .topCatBarCover .topCatItm{
     background-color: #312f2f;
     padding: 5px 10px;
     margin: 5px;
-    font-size: 23px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     border-radius: 25px;
     border: 1px solid rgb(120, 120, 120);
+    cursor: pointer;
 }
 .conBody .topCatBar .topCatBarCover .topCatItm span{
     font-size: 18px;
@@ -371,11 +384,12 @@ nav .links ul li a:hover{
 .wpapper .disCover .display1 .displyBoder .display input{
     width: 70%;
     height: 35px;
-    font-size: 20px;
+    font-size: 30px;
+    padding: 5px;
 }
 .wpapper .disCover .display1 .displyBoder .display button{
     width: 10%;
-    height: 35px;
+    height: 45px;
     border: none;
     margin: 0 0  0 5px;
     background-color: rgb(255, 226, 39);
@@ -394,12 +408,153 @@ font-family: 'Roboto', sans-serif;
 }
 .wapper2 .keyBordCover{
     width: 80%;
-    background-color: #000000;
+    background-color: #e2e2e2;    
+    transition: all 1s ease-in-out;
 }
 .wapper2 .keyBordCover h3{
     padding: 5px;
     width: 100%;
-    background-color: #654d05;
+    background-color: #ffffff;
     box-sizing: border-box;
-    color: #eee9e9;
+    color: #383838;
+    /* border-radius: 25px; */
+}
+
+.wapper2 .keyBordCover .keboard{
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;transition: all 1s ease-in-out;
+}
+.wapper2 .keyBordCover .keboard p{
+    font-size: 27px;
+    cursor: pointer;
+    padding: 5px;
+    /* background-color: #ffffff;   */
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(192, 182, 182);
+
+}
+
+.mainCatSlt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mainCatSlt .mnSltBttn{
+    width: 80%;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #333333;
+}
+.mainCatSlt .mnSltBttn .mainBtnCover{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mainCatSlt .mnSltBttn .mainBtnCover button{
+    margin: 5px;
+    background:none;
+    /* border: 1px 1px 0 1px solid #ffffff; */
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    border: 1px solid rgb(123, 123, 123);
+    border-radius: 25px;
+}
+.mainCatSlt .mnSltBttn .mainBtnCover button p{
+    font-size: 20px;
+    padding: 2px;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #6f624f
+    }
+    50% {
+        background-color: #FFA31A;
+    }
+    100% {
+        background-color: #6f624f
+    }
+}
+
+.active{
+    background-color: #FFA31A !important;
+    /* animation: blink 2s infinite; */
+}
+.active2{
+    background-color: #535353 !important;
+    border: 1px solid white !important; 
+}
+
+.lodMOreCover{
+    width: 100%;
+}
+
+.loardMor{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 0 0 15px 0;
+}
+.loardMor button{
+    padding: 5px 10px;
+    background-color: #ffd500;
+    width: 60%;
+    border: none;
+}
+
+@media only screen and (max-width:1065px){
+
+}
+@media only screen and (max-width:800px){
+    .mblHideTop{
+        display: none;
+    }
+}
+@media only screen and (max-width:850px){
+    .conBody .topCatBar{
+        width: 95%;
+    }
+    .wpapper .disCover{
+        width: 95%;
+    }
+    .conBody .topCatBar .topCatBarCover .topCatItm{
+        font-size: 16px;
+    }
+    .conBody .topCatBar .topCatBarCover .topCatItm span{
+        font-size: 15px;
+    }
+    .mainCatSlt .mnSltBttn{
+        width: 95%;
+    }
+    .wapper2 .keyBordCover{
+        width: 95%;
+    }
+    .wapper2 .keyBordCover .keboard p{
+        font-size: 22px;
+    }
+    .loardMor{
+        width: 95%;
+    }
+
+}
+@media only screen and (min-width:850px){
+    .mblHideTop{
+        display: block;
+    }
+    #topSeeMor{
+        display: none;
+    }
 }
