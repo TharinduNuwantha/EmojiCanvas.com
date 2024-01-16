@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+Sinhala:wght@900&family=Roboto:ital,wght@0,400;0,500;1,400&family=Rubik:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Roboto&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -364,7 +365,7 @@ nav .links ul li a:hover{
 .wpapper .disCover .display1{
     width: 100%;
     padding:  10px;
-    background-color: #1d1d1d;
+    /* background-color: #1d1d1d; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -388,16 +389,22 @@ nav .links ul li a:hover{
     padding: 5px;
 }
 .wpapper .disCover .display1 .displyBoder .display button{
-    width: 10%;
+    width: 80px;
     height: 45px;
     border: none;
-    margin: 0 0  0 5px;
+    margin: 0 0  0 2px;
     background-color: rgb(255, 226, 39);
     color: #000000;
     font-size: 17px;
     font-weight: 500;
     font-family: 'Dhurjati', sans-serif;
 font-family: 'Roboto', sans-serif;
+}
+.wpapper .disCover .display1 .displyBoder .display button#rightSlider{
+    background-color: rgb(11, 11, 11);
+    width: 30px;
+
+
 }
 .wapper2{
     width: 100%;
@@ -408,6 +415,7 @@ font-family: 'Roboto', sans-serif;
 }
 .wapper2 .keyBordCover{
     width: 80%;
+    min-height: 100px;
     background-color: #e2e2e2;    
     transition: all 1s ease-in-out;
 }
@@ -498,6 +506,7 @@ font-family: 'Roboto', sans-serif;
 
 .lodMOreCover{
     width: 100%;
+    
 }
 
 .loardMor{
@@ -506,7 +515,7 @@ font-family: 'Roboto', sans-serif;
     justify-content: center;
     align-items: center;
     background-color: #000000;
-    padding: 0 0 15px 0;
+    padding: 10px 0 10px 0;
 }
 .loardMor button{
     padding: 5px 10px;
@@ -522,6 +531,12 @@ font-family: 'Roboto', sans-serif;
     .mblHideTop{
         display: none;
     }
+    .wpapper .disCover .display1 .displyBoder{
+        width: 90%;
+    }
+    .wpapper .disCover .display1 .displyBoder .display input{
+        width: 100%;
+    }
 }
 @media only screen and (max-width:850px){
     .conBody .topCatBar{
@@ -531,10 +546,10 @@ font-family: 'Roboto', sans-serif;
         width: 95%;
     }
     .conBody .topCatBar .topCatBarCover .topCatItm{
-        font-size: 16px;
+        font-size: 19px;
     }
     .conBody .topCatBar .topCatBarCover .topCatItm span{
-        font-size: 15px;
+        font-size: 16px;
     }
     .mainCatSlt .mnSltBttn{
         width: 95%;
@@ -543,7 +558,7 @@ font-family: 'Roboto', sans-serif;
         width: 95%;
     }
     .wapper2 .keyBordCover .keboard p{
-        font-size: 22px;
+        font-size: 27px;
     }
     .loardMor{
         width: 95%;
@@ -557,4 +572,25 @@ font-family: 'Roboto', sans-serif;
     #topSeeMor{
         display: none;
     }
+}
+.keyBordCover  h3{
+    background-color: rgb(204, 203, 203) !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 500 !important;
+}
+.display1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transition: all 0.5s ease-in-out;
+}
+.wpapper{
+    position: absolute;
+    top: 10%;
+    left: 100%;
+    position: fixed;
+    transition: all 0.3s ease-in-out;
+}
+.barShow{
+    left: 0;
 }

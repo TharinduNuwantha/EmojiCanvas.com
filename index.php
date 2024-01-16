@@ -73,11 +73,12 @@
 
 <div class="wpapper">
             <div class="disCover">
-                <div class="display1">
+                <div class="display1" id="display1">
                     <div class="displyBoder">
                         <div class="display">
+                            <button id="rightSlider" onClick="hideCppBar()"><img src="img/main/right-arrow-100.png" alt="hideBar" width="30px"></button>
                             <input type="text" id="cppBox">
-                            <button>Copy</button>
+                            <button onclick="copyToClipboard()">Copy</button>
                         </div>
                     </div>
                 </div>
@@ -173,15 +174,15 @@
                     </div></div>
 
                     <div onClick="topDisBtn(22)" title="Transport Emojis"><div class="topCatItm">
-                        <p data-meaning="Locomotive" data-unicode="U+1F682">🚂<span>34</span></p>
+                        <p data-meaning="Delivery truck" data-unicode="U+1F69A">🚚<span>34</span></p>
                     </div></div>
 
                     <div onClick="topDisBtn(23)" title="Time Emojis"><div class="topCatItm">
-                        <p data-meaning="Hourglass done" data-unicode="U+231B">⌛<span>31</span></p>
+                        <p data-meaning="Four O\'clock" data-unicode="U+1F553">🕓<span>31</span></p>
                     </div></div>
 
                     <div onClick="topDisBtn(24)" title="Sky and Weather Emojis"><div class="topCatItm">
-                        <p data-meaning="New moon" data-unicode="U+1F311">🌑<span>47</span></p>
+                        <p data-meaning="Waning gibbous moon" data-unicode="U+1F316">🌖<span>47</span></p>
                     </div></div>
 
                     <div onClick="topDisBtn(25)" title="Activity Emojis"><div class="topCatItm">
@@ -190,7 +191,7 @@
 
 
                     <div onClick="topDisBtn(26)" title="Award Medals Emojis"><div class="topCatItm">
-                        <p data-meaning="Military medal" data-unicode="U+1F396">🎖<span>06</span></p>
+                        <p data-meaning="Trophy" data-unicode="U+1F3C6">🏆<span>06</span></p>
                     </div></div>
 
                     <div onClick="topDisBtn(27)" title="Sport Emojis"><div class="topCatItm">
@@ -214,7 +215,7 @@
                     </div></div>
 
                     <div onClick="topDisBtn(32)" title="Musical Instrument Emojis" class="mblHideTop"><div class="topCatItm">
-                        <p data-meaning="Musical keyboard" data-unicode="U+1F3B9">🎹<span>45</span></p>
+                        <p data-meaning="Trumpet" data-unicode="U+1F3BA">🎺<span>45</span></p>
                     </div></div>
 
                     <div onClick="topDisBtn(33)" title="Phone Emojis" class="mblHideTop"><div class="topCatItm">
@@ -234,7 +235,7 @@
                     </div></div> 
 
                     <div onClick="topDisBtn(37)" title="Mail Emojis" class="mblHideTop"><div class="topCatItm">
-                        <p data-meaning="Envelope" data-unicode="U+2709">✉<span>12</span></p>
+                        <p data-meaning="E-mail" data-unicode="U+1F4E7">📧<span>12</span></p>
                     </div></div> 
 
                     <div onClick="topDisBtn(38)" title="Writing Emojis" class="mblHideTop"><div class="topCatItm">
@@ -262,7 +263,7 @@
                     </div></div> 
 
                     <div onClick="topDisBtn(44)" title="Household Emojis" class="mblHideTop"><div class="topCatItm">
-                        <p data-meaning="Door" data-unicode="U+1F6AA">🚪<span>25</span></p>
+                        <p data-meaning="Toilet" data-unicode="U+1F6BD">🚽<span>25</span></p>
                     </div></div> 
 
                     <div onClick="topDisBtn(45)" title="Other Objects Emojis" class="mblHideTop"><div class="topCatItm">
@@ -282,7 +283,7 @@
                     </div></div> 
 
                     <div onClick="topDisBtn(49)" title="Religion" class="mblHideTop"><div class="topCatItm">
-                        <p data-meaning="Orthodox cross" data-unicode="U+2626">☦<span>12</span></p>
+                        <p data-meaning="Place of worship" data-unicode="U+1F6D0">🛐<span>12</span></p>
                     </div></div> 
 
                     <div onClick="topDisBtn(50)" title="Zodiac" class="mblHideTop"><div class="topCatItm">
@@ -293,12 +294,13 @@
                         <p data-meaning="Fast-forward" data-unicode="U+23E9">⏩<span>24</span></p>
                     </div></div> 
 
-                    <div onClick="topDisBtn(52)" title="Math Symbols" class="mblHideTop"><div class="topCatItm">
-                        <p data-meaning="Divide" data-unicode="U+2797">➗<span>06</span></p>
+                    <div onClick="topDisBtn(52)"  title="Gender" class="mblHideTop"><div class="topCatItm">
+                        
+                        <p data-meaning="Male" data-unicode="U+2642">♂<span>03</span></p>
                     </div></div> 
 
-                    <div onClick="topDisBtn(53)" title="Gender" class="mblHideTop"><div class="topCatItm">
-                        <p data-meaning="Male" data-unicode="U+2642">♂<span>03</span></p>
+                    <div onClick="topDisBtn(53)" title="Math Symbols" class="mblHideTop"><div class="topCatItm">
+                        <p data-meaning="Divide" data-unicode="U+2797">➗<span>06</span></p>
                     </div></div> 
 
                     <div onClick="topDisBtn(54)" title="Punctuation Symbols" class="mblHideTop"><div class="topCatItm">
@@ -314,7 +316,7 @@
                     </div></div>
 
                     <div onClick="topDisBtn(57)" title="Keycap" class="mblHideTop"><div class="topCatItm">
-                        <p data-meaning="1 Keycap" data-unicode="U+20E3">1️⃣<span>13</span></p>
+                        <p data-meaning="10 Keycap" data-unicode="U+1F51F">🔟<span>13</span></p>
                     </div></div>
 
                     <div onClick="topDisBtn(58)" title="Alphanumeric Symbols" class="mblHideTop"><div class="topCatItm">
@@ -346,41 +348,79 @@
         <div class="mainCatSlt">
             <div class="mnSltBttn">
                 <div class="mainBtnCover flex">
-                    <button onClick="seondBTN(1)"><p data-meaning="Smiling face" data-unicode="U+U+1F600">😀</p></button>
-                    <button onClick="seondBTN(2)" class="active2"><p data-meaning="Lion" data-unicode="U+1F981">🦁</p></button>
-                    <button onClick="seondBTN(3)"><p data-meaning="Smiling face" data-unicode="U+1F9C1">🧁</p></button>
-                    <button onClick="seondBTN(4)"><p data-meaning="Soccer ball" data-unicode="U+26BD">⚽</p></button>
-                    <button onClick="seondBTN(5)"><p data-meaning="Delivery truck" data-unicode="U+1F69A">🚚</p></button>
-                    <button onClick="seondBTN(6)"><p data-meaning="Clapper board" data-unicode="U+1F3AC">🎬</p></button>
-                    <button onClick="seondBTN(7)"><p data-meaning="Input Latin uppercas" data-unicode="U+1F520U+1F520">🔠</p></button>
-                    <button onClick="seondBTN(8)"><p data-meaning="Triangular flag" data-unicode="U+1F6A9">🚩</p></button>
+                    <button onClick="seondBTN(1)" class="sendBarBtns active2"><p data-meaning="Smiling face" data-unicode="U+U+1F600">😀</p></button>
+                    <button onClick="seondBTN(2)" class="sendBarBtns"><p data-meaning="Lion" data-unicode="U+1F981">🦁</p></button>
+                    <button onClick="seondBTN(3)" class="sendBarBtns"><p data-meaning="Smiling face" data-unicode="U+1F9C1">🧁</p></button>
+                    <button onClick="seondBTN(4)" class="sendBarBtns"><p data-meaning="Soccer ball" data-unicode="U+26BD">⚽</p></button>
+                    <button onClick="seondBTN(5)" class="sendBarBtns"><p data-meaning="Delivery truck" data-unicode="U+1F69A">🚚</p></button>
+                    <button onClick="seondBTN(6)" class="sendBarBtns"><p data-meaning="Clapper board" data-unicode="U+1F3AC">🎬</p></button>
+                    <button onClick="seondBTN(7)" class="sendBarBtns"><p data-meaning="Input Latin uppercas" data-unicode="U+1F520U+1F520">🔠</p></button>
+                    <button onClick="seondBTN(8)" class="sendBarBtns"><p data-meaning="Triangular flag" data-unicode="U+1F6A9">🚩</p></button>
                 </div>
             </div>
         </div>
     <div class="wapper2">
     <div class="keyBordCover">
              <!-- <h3>happy face</h3> -->
+             <h3 id="keybdHed">Smysl sdd sdkla</h3>
                 <div class="keboard" id="keboard"> 
-                    <h3 id="keybdHed">Smysl sdd sdkla</h3>
                 </div>
         </div>
     </div>
 
+<p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ad, numquam saepe nam excepturi, voluptas impedit delectus voluptate reprehenderit, expedita dolores eos ducimus obcaecati perferendis unde at laboriosam atque esse.</span><span>Totam cum eligendi quidem tempore nesciunt iste suscipit fugit esse blanditiis animi voluptas quos dolorum enim, saepe facilis delectus officiis impedit sapiente possimus ad perferendis repellat doloribus excepturi! Quis, officia.</span><span>Id aspernatur minima fugit dignissimos assumenda voluptates aut. Nostrum neque quos amet molestiae voluptatum ab omnis in iusto dicta harum. Aliquid suscipit minima reiciendis. Consectetur placeat eos laboriosam modi obcaecati.</span></p>
 
         <script src="index.js"></script>
         <script src="emoji.js"></script>
         <script>
+
+            
             const topDisVar = [Smiley_Face_Emojis,Emotional_Faces_Emojis,Faces_with_Tongue_Emojis,Faces_with_Hands_Emojis,Neutral_Faces_Emojis,Sleepy_Faces_Emojis,Sick_Faces_Emojis,Concerned_Faces_Emojis,Negative_Faces_Emojis,Costume_Faces_Emojis,Complex_Faces_Emojis,Cat_Faces_Emojis,Monkey_Faces_Emojis,Emotion_Emojis,harts_emojis,Body_Parts_Emojis,Person_Emojis,Family_Emojis,Animals_and_Nature_Emojis,Food_and_Drinks_Emojis,Travel_and_Places_Emojis,Transport_Emojis,Time_Emojis,Sky_and_Weather_Emojis,Activity_Emojis,Award_Medals_Emojis,Sport_Emojis,Games_Emojis,Arts_and_Crafts_Emojis,Clothing_Objects_Emojis,Sound_Emojis,Musical_Instrument_Emojis,Phone_Emojis,Computer_Emojis,Light_and_Video_Emojis,Book_and_Paper_Emojis,Mail_Emojis,Writing_Emojis,Office_Emojis,Lock_Emojis,Tools_Emojis,Science_Emojis,Medical_Emojis,Household_Emojis,Other_Objects_Emojis,Symbols_Emojis,Warning_Emojis,Arrow_Emojis,Religion_Emojis,Zodiac_Emojis,AV_Symbols_Emojis,Gender_Emojis,Math_Symbols_Emojis,Punctuation_Symbols_Emojis,Currency_Emojis,Other_Symbols_Emojis,Keycap_Emojis,Alphanumeric_Symbols_Emojis,Japanese_Buttons_Emojis,Geometric_Emojis,Flags_Emojis,CountryFlags_Emojis];
+            const topDisVarStr = ["Smiley Face Emojis","Emotional Faces Emojis","Faces with Tongue Emojis","Faces with Hands Emojis","Neutral Faces Emojis","Sleepy Faces Emojis","Sick Faces Emojis","Concerned Faces Emojis","Negative Faces Emojis","Costume Faces Emojis","Complex Faces Emojis","Cat Faces Emojis","Monkey Faces Emojis","Emotion Emojis","harts emojis","Body Parts Emojis","Person Emojis","Family Emojis","Animals and Nature Emojis","Food and Drinks Emojis","Travel and Places Emojis","Transport Emojis","Time Emojis","Sky and Weather Emojis","Activity Emojis","Award Medals Emojis","Sport Emojis","Games Emojis","Arts and Crafts Emojis","Clothing Objects Emojis","Sound Emojis","Musical Instrument Emojis","Phone Emojis","Computer Emojis","Light and Video Emojis","Book and Paper Emojis","Mail Emojis","Writing Emojis","Office Emojis","Lock Emojis","Tools Emojis","Science Emojis","Medical Emojis","Household Emojis","Other Objects Emojis","Symbols Emojis","Warning Emojis","Arrow Emojis","Religion Emojis","Zodiac Emojis","AV Symbols Emojis","Gender Emojis","Math Symbols Emojis","Punctuation Symbols Emojis","Currency Emojis","Other Symbols Emojis","Keycap Emojis","Alphanumeric Symbols Emojis","Japanese Buttons Emojis","Geometric Emojis","Flags Emojis","CountryFlags Emojis"];
+
+
+            // fist user screeen
+                
+
 
             function topDisBtn(val){
-                //  alert(val);
+                // if seconbar is on active class ths is for remov it
+                    var sdbtn = document.getElementsByClassName("sendBarBtns");
+                    var sdbtnArr =Array.from(sdbtn);
+                    sdbtnArr.forEach(btn => {
+                        if(btn.classList.contains("active2")){
+                            btn.classList.remove("active2");
+                        }
+                    });
+                
+                const keybdHed = document.getElementById("keybdHed");
+                keybdHed.innerHTML = topDisVarStr[val-1];
                 //  document.getElementById("keboard").innerHTML = Smiley_Face_Emojis[];
-                document.getElementById("keboard").innerHTML = "";
+                var allCategoryItems = document.querySelectorAll('.topCatItm');
+                btnConForActv =1;
+                allCategoryItems.forEach(function(itm) {
+                        try{
+
+                            itm.classList.remove("active");
+                            if(btnConForActv === val){
+                                itm.classList.add("active");
+                            } 
+                            btnConForActv++;
+
+                            
+                        }catch (error) {
+
+                            console.error("An error occurred:", error.message);
+                        }
+                      
+                });
                 // console.log(topDisVar[val]);
+                const keboard =  document.getElementById("keboard");
+                    keboard.innerText = '';
                 for(let a =0;a<topDisVar[val-1].length;a++){
                 // console.log(Smiley_Face_Emojis[0].emoji); 
                     // document.getElementById("keboard").innerHTML += '<p data-meaning="Slightly smiling face" data-unicode="U+1F642" onClick="addToCpx(this)">'+topDisVar[val-1][a].emoji+'</p>';
-                    const keboard =  document.getElementById("keboard");
+
                     var p =document.createElement('p');
                     p.setAttribute('data-meaning',topDisVar[val-1][a].description);
                     p.setAttribute('data-unicode',topDisVar[val-1][a].unicode);
@@ -405,7 +445,7 @@
             }
 
             for(let i =0;i<topDisVar.length;i++){
-                console.log(i);
+                // console.log(i);
             }
 
 
@@ -414,7 +454,21 @@
             function addToCpx(element) {
                  // clear display
                 cppBox.value += element.innerText;
+                var chBx =document.querySelector(".wpapper");
+                if(!chBx.classList.contains("barShow")){
+                    chBx.classList.add("barShow");
+                }
 
+            }
+
+            //this is for coppy bar hide
+            function hideCppBar(){
+                var chBx =document.querySelector(".wpapper");
+                if(chBx.classList.contains("barShow")){
+                    chBx.classList.remove("barShow");
+                    document.getElementById("cppBox").value = '';
+
+                }
             }
 
             // =============  send Filter ====================
@@ -458,21 +512,176 @@
                 
                 
             };
-
+            seondBTN(1);
             function seondBTN(val) {
-                const keybdHed = document.getElementById("keybdHed");
+                // alert(secondbtns.btn1.listNames.length);
+                var topButtons =document.getElementsByClassName("topCatItm");
+                var topButtonsArray = Array.from(topButtons);
+                topButtonsArray.forEach(button => {
+                    if(button.classList.contains('active')){
+                        button.classList.remove('active');
+                    }
+                });
+                //remove activeclass second bar tooo
+                var secondButtons =document.getElementsByClassName("topCatItm");
+                var secondButtonsArray = Array.from(secondButtons);
+                secondButtonsArray.forEach(button => {
+                    if(button.classList.contains('active')){
+                        button.classList.remove('active');
+                    }
+                });
+
+
+                const keboard =  document.getElementById("keboard");
+                keboard.innerText = '';
                 switch (val) {
                     case 1:
+                        activeSendBar(val);
                         keybdHed.innerText = secondbtns.btn1.title;
+                        //  console.log(secondbtns.btn1.listNames[0]);
+                        for(let z =0;z<secondbtns.btn1.listNames.length;z++){
+
+                            for(let i = 0; i <secondbtns.btn1.listNames[z].length;i++){
+                                // console.log(secondbtns.btn1.listNames[0][0].emoji);    
+                                var p =document.createElement('p');
+                                p.setAttribute('data-meaning',secondbtns.btn1.listNames[z][i].meaning);
+                                p.setAttribute('data-unicode',secondbtns.btn1.listNames[z][i].unicode);
+                                p.setAttribute('onClick', 'addToCpx(this)');
+                                p.textContent = secondbtns.btn1.listNames[z][i].emoji;
+                                keboard.appendChild(p);
+                            }
+                        }
                         break;
                     case 2:
+                        activeSendBar(val);
+                        keybdHed.innerText = secondbtns.btn2.title;  
+                        for(let z =0;z<secondbtns.btn2.listNames.length;z++){
 
+                            for(let i = 0; i <secondbtns.btn2.listNames[z].length;i++){
+                                // console.log(secondbtns.btn1.listNames[0][0].emoji);    
+                                var p =document.createElement('p');
+                                p.setAttribute('data-meaning',secondbtns.btn2.listNames[z][i].meaning);
+                                p.setAttribute('data-unicode',secondbtns.btn2.listNames[z][i].unicode);
+                                p.setAttribute('onClick', 'addToCpx(this)');
+                                p.textContent = secondbtns.btn2.listNames[z][i].emoji;
+                                keboard.appendChild(p);
+                            }
+                        }  
+                        break;
+                    case 3:
+                        activeSendBar(val);
+                        keybdHed.innerText = secondbtns.btn3.title;
+                        for(let z =0;z<secondbtns.btn3.listNames.length;z++){
 
+                            for(let i = 0; i <secondbtns.btn3.listNames[z].length;i++){
+                                // console.log(secondbtns.btn1.listNames[0][0].emoji);    
+                                var p =document.createElement('p');
+                                p.setAttribute('data-meaning',secondbtns.btn3.listNames[z][i].meaning);
+                                p.setAttribute('data-unicode',secondbtns.btn3.listNames[z][i].unicode);
+                                p.setAttribute('onClick', 'addToCpx(this)');
+                                p.textContent = secondbtns.btn3.listNames[z][i].emoji;
+                                keboard.appendChild(p);
+                            }
+                        }  
+                        break;     
+                    case 4:
+                        activeSendBar(val);
+                        keybdHed.innerText = secondbtns.btn4.title;
+                        for(let z =0;z<secondbtns.btn4.listNames.length;z++){
+
+                            for(let i = 0; i <secondbtns.btn4.listNames[z].length;i++){
+                                // console.log(secondbtns.btn1.listNames[0][0].emoji);    
+                                var p =document.createElement('p');
+                                p.setAttribute('data-meaning',secondbtns.btn4.listNames[z][i].meaning);
+                                p.setAttribute('data-unicode',secondbtns.btn4.listNames[z][i].unicode);
+                                p.setAttribute('onClick', 'addToCpx(this)');
+                                p.textContent = secondbtns.btn4.listNames[z][i].emoji;
+                                keboard.appendChild(p);
+                            }
+                        }  
+                        break;
+                    case 5:
+                        activeSendBar(val);
+                        keybdHed.innerText = secondbtns.btn5.title;
+                        for(let z =0;z<secondbtns.btn5.listNames.length;z++){
+
+                            for(let i = 0; i <secondbtns.btn5.listNames[z].length;i++){
+                                // console.log(secondbtns.btn1.listNames[0][0].emoji);    
+                                var p =document.createElement('p');
+                                p.setAttribute('data-meaning',secondbtns.btn5.listNames[z][i].meaning);
+                                p.setAttribute('data-unicode',secondbtns.btn5.listNames[z][i].unicode);
+                                p.setAttribute('onClick', 'addToCpx(this)');
+                                p.textContent = secondbtns.btn5.listNames[z][i].emoji;
+                                keboard.appendChild(p);
+                            }
+                        }  
+                        break;
+                    case 6:
+                        activeSendBar(val);
+                        keybdHed.innerText = secondbtns.btn6.title;
+                        for(let z =0;z<secondbtns.btn6.listNames.length;z++){
+
+                            for(let i = 0; i <secondbtns.btn6.listNames[z].length;i++){
+                                // console.log(secondbtns.btn1.listNames[0][0].emoji);    
+                                var p =document.createElement('p');
+                                p.setAttribute('data-meaning',secondbtns.btn6.listNames[z][i].meaning);
+                                p.setAttribute('data-unicode',secondbtns.btn6.listNames[z][i].unicode);
+                                p.setAttribute('onClick', 'addToCpx(this)');
+                                p.textContent = secondbtns.btn6.listNames[z][i].emoji;
+                                keboard.appendChild(p);
+                            }
+                        }  
+                        break;
+                    case 7:
+                        activeSendBar(val);
+                        keybdHed.innerText = secondbtns.btn7.title;
+                        for(let z =0;z<secondbtns.btn7.listNames.length;z++){
+
+                            for(let i = 0; i <secondbtns.btn7.listNames[z].length;i++){
+                                // console.log(secondbtns.btn1.listNames[0][0].emoji);    
+                                var p =document.createElement('p');
+                                p.setAttribute('data-meaning',secondbtns.btn7.listNames[z][i].meaning);
+                                p.setAttribute('data-unicode',secondbtns.btn7.listNames[z][i].unicode);
+                                p.setAttribute('onClick', 'addToCpx(this)');
+                                p.textContent = secondbtns.btn7.listNames[z][i].emoji;
+                                keboard.appendChild(p);
+                            }
+                        }  
+                        break;
+                    case 8:
+                        activeSendBar(val);
+                        keybdHed.innerText = secondbtns.btn8.title; 
+                        for(let z =0;z<secondbtns.btn8.listNames.length;z++){
+
+                            for(let i = 0; i <secondbtns.btn8.listNames[z].length;i++){
+                                // console.log(secondbtns.btn1.listNames[0][0].emoji);    
+                                var p =document.createElement('p');
+                                p.setAttribute('data-meaning',secondbtns.btn8.listNames[z][i].meaning);
+                                p.setAttribute('data-unicode',secondbtns.btn8.listNames[z][i].unicode);
+                                p.setAttribute('onClick', 'addToCpx(this)');
+                                p.textContent = secondbtns.btn8.listNames[z][i].emoji;
+                                keboard.appendChild(p);
+                            }
+                        }  
+                        break;                     
+                    default:
+                        // Handle the default case or leave it empty if not needed
+                        break;
                 }
+
+
+                
+                // switch (val) {
+                //     case 1:
+                //         keybdHed.innerText = secondbtns.btn1.title;
+                //         break;
+                        
+
+                // }
             }
 
             // top catagory seemore buton process
-
+            
             const topSeeMor = document.getElementById("topSeeMor");
             let bt = false;
 
@@ -481,12 +690,14 @@
                     var elements = document.querySelectorAll(".mblHideTop");
                     elements.forEach(function (element) {
                         element.style.display = 'block';
+                        topSeeMor.innerHTML = 'see less';
                     });
                     bt = true;
                 } else {
                     var elements = document.querySelectorAll(".mblHideTop");
                     elements.forEach(function (element) {
                         element.style.display = 'none';
+                        topSeeMor.innerHTML = 'see more';
                     });
                     bt = false
                 }
@@ -505,7 +716,37 @@
         });
     }
 
-            
+
+    // second class active bar process
+
+    function activeSendBar(val){
+        var sdbtn = document.getElementsByClassName("sendBarBtns");
+        var sdbtnArr =Array.from(sdbtn);
+        sdbtnArr.forEach(btn => {
+            if(btn.classList.contains("active2")){
+                btn.classList.remove("active2");
+            }
+        });
+        sdbtn[val-1].classList.add("active2");
+    }
+    const shBox = document.getElementById("display1");
+
+    function shBoxSlider() {
+        var shBox = document.querySelector('.display1');
+
+    // Move the element to the left
+    shBox.style.left = "0%";
+
+    // Scroll the page to make the element visible
+    shBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+shBoxSlider();
+
+function copyToClipboard(){
+    
+}
+
         </script>
 </body>
 </html>
@@ -514,16 +755,3 @@
 
 
 
-@media only screen and (max-width:850px){
-    .searchArea .boxSerch{
-        width: 90%;
-    }
-    .searchArea .searchBox{
-        padding: 0 15px;
-    }
-    .search_reslult_box{
-        right: 35px;
-    }
- 
-    
-}
