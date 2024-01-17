@@ -75,10 +75,11 @@
             <div class="disCover">
                 <div class="display1" id="display1">
                     <div class="displyBoder">
+                    <div class="cppMsg"><p id="copiedMsg">Text copied to clipboard:</p></div>
                         <div class="display">
                             <button id="rightSlider" onClick="hideCppBar()"><img src="img/main/right-arrow-100.png" alt="hideBar" width="30px"></button>
                             <input type="text" id="cppBox">
-                            <button onclick="copyToClipboard()">Copy</button>
+                            <button onclick="copyToClipboard()" id="cppBtn">Copy</button>
                         </div>
                     </div>
                 </div>
@@ -368,12 +369,93 @@
         </div>
     </div>
 
-<p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ad, numquam saepe nam excepturi, voluptas impedit delectus voluptate reprehenderit, expedita dolores eos ducimus obcaecati perferendis unde at laboriosam atque esse.</span><span>Totam cum eligendi quidem tempore nesciunt iste suscipit fugit esse blanditiis animi voluptas quos dolorum enim, saepe facilis delectus officiis impedit sapiente possimus ad perferendis repellat doloribus excepturi! Quis, officia.</span><span>Id aspernatur minima fugit dignissimos assumenda voluptates aut. Nostrum neque quos amet molestiae voluptatum ab omnis in iusto dicta harum. Aliquid suscipit minima reiciendis. Consectetur placeat eos laboriosam modi obcaecati.</span></p>
+    <div class="bannerAddCover">
+        <div class="bannerBox">
+            <div class="banner"><p>responsive ads</p></div>
+        </div>
+    </div>
+
+    <div class="linkBoxCover">
+
+        <div class="linkBackCover flex">
+            <div class="linkBox">
+                <div class="lnBox">
+                    <span><img class="lazy" src="img/main/1.png" alt="Emoji meaning" width="150px" loading="lazy" /></span>
+                    <a href="#"> <button>Emoji meanings</button></a>
+                </div>
+            </div>
+
+            <div class="linkBox">
+                <div class="lnBox">
+                <span><img class="lazy" src="img/main/2.png" alt="Emoji meaning" width="150px"></span>
+                    <a href="#"> <button>Emoji PNG</button></a>
+                </div>
+            </div>
+
+            <div class="linkBox">
+                <div class="lnBox">
+                <span><img class="lazy" src="img/main/3.png" alt="Emoji meaning" width="150px"></span>
+                    <a href="E"> <button>All emojis</button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="article">
+       <div class="articleCover"> 
+        <div class="articleBox">
+            <p class="atlhddn">Introduction to Emojis</p>
+            <p>In the digital age, emojis have become an integral part of online communication. These small pictorial symbols, originally limited to simple smileys, have evolved into a diverse set of expressive icons that convey a wide range of emotions and concepts.</p>
+
+        </div>
+
+        <div class="articleBox">
+            <p class="atlhddn">The Evolution of Emojis</p>
+            <p>From their humble beginnings as basic smileys, emojis have undergone a remarkable transformation. Today, users have access to an extensive library of symbols, including animals, food, and various objects, allowing for more nuanced expression in digital conversations.</p>
+    
+        </div>
+
+        <div class="articleBox">
+            <p class="atlhddn">Cultural Impact of Emojis</p>
+            <p>Emojis have transcended language barriers, becoming a universal language in themselves. The interpretation of emojis varies across cultures, adding a layer of complexity to their usage. Understanding the global impact of emojis is essential for effective communication.</p>
+
+    
+        </div>
+
+        <div class="articleBox">
+            <p class="atlhddn">The Science Behind Emojis</p>
+            <p>Research indicates that emojis play a significant role in conveying emotions in written communication. The visual nature of emojis taps into the emotional and psychological aspects of human interaction, making texts more relatable and engaging.</p>
+
+        </div>
+
+        <div class="articleBox">
+            <p class="atlhddn">Emoji Trends in Social Media</p>
+            <p>Different social media platforms have distinct trends when it comes to emoji usage. Analyzing these trends can provide insights into the preferences of users on platforms like Twitter, Instagram, and Facebook.</p>
+            
+        </div>
+       </div> 
+    </div>
+
+    <footer>
+        <div class="footerRow">
+            <div class="ftlogo"><span>EmojiCanvas.com</span></div>
+            <div class="ftlinks">
+                <span><a href="#">About us</a></span>
+                <span><a href="#">Contact us</a></span>
+            </div>
+        </div>
+        <div class="fuuterBotem">
+        &#169;<span id="currntYear"> </span>. || All Rights Reserved.
+        </div>
+    </footer>
 
         <script src="index.js"></script>
         <script src="emoji.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.js" integrity="sha512-FwqNPb8ENFXApJKNgRgYq5ok7VoOf5ImaOdzyF/xe/T5jdd/S0xq0CXBLDhpzaemxpQ61X3nLVln6KaczwhKgA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
-
+            document.getElementById("currntYear").innerText = new Date().getFullYear();
             
             const topDisVar = [Smiley_Face_Emojis,Emotional_Faces_Emojis,Faces_with_Tongue_Emojis,Faces_with_Hands_Emojis,Neutral_Faces_Emojis,Sleepy_Faces_Emojis,Sick_Faces_Emojis,Concerned_Faces_Emojis,Negative_Faces_Emojis,Costume_Faces_Emojis,Complex_Faces_Emojis,Cat_Faces_Emojis,Monkey_Faces_Emojis,Emotion_Emojis,harts_emojis,Body_Parts_Emojis,Person_Emojis,Family_Emojis,Animals_and_Nature_Emojis,Food_and_Drinks_Emojis,Travel_and_Places_Emojis,Transport_Emojis,Time_Emojis,Sky_and_Weather_Emojis,Activity_Emojis,Award_Medals_Emojis,Sport_Emojis,Games_Emojis,Arts_and_Crafts_Emojis,Clothing_Objects_Emojis,Sound_Emojis,Musical_Instrument_Emojis,Phone_Emojis,Computer_Emojis,Light_and_Video_Emojis,Book_and_Paper_Emojis,Mail_Emojis,Writing_Emojis,Office_Emojis,Lock_Emojis,Tools_Emojis,Science_Emojis,Medical_Emojis,Household_Emojis,Other_Objects_Emojis,Symbols_Emojis,Warning_Emojis,Arrow_Emojis,Religion_Emojis,Zodiac_Emojis,AV_Symbols_Emojis,Gender_Emojis,Math_Symbols_Emojis,Punctuation_Symbols_Emojis,Currency_Emojis,Other_Symbols_Emojis,Keycap_Emojis,Alphanumeric_Symbols_Emojis,Japanese_Buttons_Emojis,Geometric_Emojis,Flags_Emojis,CountryFlags_Emojis];
             const topDisVarStr = ["Smiley Face Emojis","Emotional Faces Emojis","Faces with Tongue Emojis","Faces with Hands Emojis","Neutral Faces Emojis","Sleepy Faces Emojis","Sick Faces Emojis","Concerned Faces Emojis","Negative Faces Emojis","Costume Faces Emojis","Complex Faces Emojis","Cat Faces Emojis","Monkey Faces Emojis","Emotion Emojis","harts emojis","Body Parts Emojis","Person Emojis","Family Emojis","Animals and Nature Emojis","Food and Drinks Emojis","Travel and Places Emojis","Transport Emojis","Time Emojis","Sky and Weather Emojis","Activity Emojis","Award Medals Emojis","Sport Emojis","Games Emojis","Arts and Crafts Emojis","Clothing Objects Emojis","Sound Emojis","Musical Instrument Emojis","Phone Emojis","Computer Emojis","Light and Video Emojis","Book and Paper Emojis","Mail Emojis","Writing Emojis","Office Emojis","Lock Emojis","Tools Emojis","Science Emojis","Medical Emojis","Household Emojis","Other Objects Emojis","Symbols Emojis","Warning Emojis","Arrow Emojis","Religion Emojis","Zodiac Emojis","AV Symbols Emojis","Gender Emojis","Math Symbols Emojis","Punctuation Symbols Emojis","Currency Emojis","Other Symbols Emojis","Keycap Emojis","Alphanumeric Symbols Emojis","Japanese Buttons Emojis","Geometric Emojis","Flags Emojis","CountryFlags Emojis"];
@@ -381,7 +463,7 @@
 
             // fist user screeen
                 
-
+            
 
             function topDisBtn(val){
                 // if seconbar is on active class ths is for remov it
@@ -544,7 +626,7 @@
                             for(let i = 0; i <secondbtns.btn1.listNames[z].length;i++){
                                 // console.log(secondbtns.btn1.listNames[0][0].emoji);    
                                 var p =document.createElement('p');
-                                p.setAttribute('data-meaning',secondbtns.btn1.listNames[z][i].meaning);
+                                p.setAttribute('data-meaning', (secondbtns.btn1.listNames[z][i].meaning === undefined) ? secondbtns.btn1.listNames[z][i].description : secondbtns.btn1.listNames[z][i].meaning);
                                 p.setAttribute('data-unicode',secondbtns.btn1.listNames[z][i].unicode);
                                 p.setAttribute('onClick', 'addToCpx(this)');
                                 p.textContent = secondbtns.btn1.listNames[z][i].emoji;
@@ -560,7 +642,7 @@
                             for(let i = 0; i <secondbtns.btn2.listNames[z].length;i++){
                                 // console.log(secondbtns.btn1.listNames[0][0].emoji);    
                                 var p =document.createElement('p');
-                                p.setAttribute('data-meaning',secondbtns.btn2.listNames[z][i].meaning);
+                                p.setAttribute('data-meaning',(secondbtns.btn2.listNames[z][i].meaning === undefined) ? secondbtns.btn2.listNames[z][i].description : secondbtns.btn2.listNames[z][i].meaning);
                                 p.setAttribute('data-unicode',secondbtns.btn2.listNames[z][i].unicode);
                                 p.setAttribute('onClick', 'addToCpx(this)');
                                 p.textContent = secondbtns.btn2.listNames[z][i].emoji;
@@ -576,7 +658,7 @@
                             for(let i = 0; i <secondbtns.btn3.listNames[z].length;i++){
                                 // console.log(secondbtns.btn1.listNames[0][0].emoji);    
                                 var p =document.createElement('p');
-                                p.setAttribute('data-meaning',secondbtns.btn3.listNames[z][i].meaning);
+                                p.setAttribute('data-meaning',(secondbtns.btn3.listNames[z][i].meaning === undefined) ? secondbtns.btn3.listNames[z][i].description : secondbtns.btn3.listNames[z][i].meaning);
                                 p.setAttribute('data-unicode',secondbtns.btn3.listNames[z][i].unicode);
                                 p.setAttribute('onClick', 'addToCpx(this)');
                                 p.textContent = secondbtns.btn3.listNames[z][i].emoji;
@@ -592,7 +674,7 @@
                             for(let i = 0; i <secondbtns.btn4.listNames[z].length;i++){
                                 // console.log(secondbtns.btn1.listNames[0][0].emoji);    
                                 var p =document.createElement('p');
-                                p.setAttribute('data-meaning',secondbtns.btn4.listNames[z][i].meaning);
+                                p.setAttribute('data-meaning',(secondbtns.btn4.listNames[z][i].meaning === undefined) ? secondbtns.btn4.listNames[z][i].description : secondbtns.btn4.listNames[z][i].meaning);
                                 p.setAttribute('data-unicode',secondbtns.btn4.listNames[z][i].unicode);
                                 p.setAttribute('onClick', 'addToCpx(this)');
                                 p.textContent = secondbtns.btn4.listNames[z][i].emoji;
@@ -608,7 +690,7 @@
                             for(let i = 0; i <secondbtns.btn5.listNames[z].length;i++){
                                 // console.log(secondbtns.btn1.listNames[0][0].emoji);    
                                 var p =document.createElement('p');
-                                p.setAttribute('data-meaning',secondbtns.btn5.listNames[z][i].meaning);
+                                p.setAttribute('data-meaning',(secondbtns.btn5.listNames[z][i].meaning === undefined) ? secondbtns.btn5.listNames[z][i].description : secondbtns.btn5.listNames[z][i].meaning);
                                 p.setAttribute('data-unicode',secondbtns.btn5.listNames[z][i].unicode);
                                 p.setAttribute('onClick', 'addToCpx(this)');
                                 p.textContent = secondbtns.btn5.listNames[z][i].emoji;
@@ -624,7 +706,7 @@
                             for(let i = 0; i <secondbtns.btn6.listNames[z].length;i++){
                                 // console.log(secondbtns.btn1.listNames[0][0].emoji);    
                                 var p =document.createElement('p');
-                                p.setAttribute('data-meaning',secondbtns.btn6.listNames[z][i].meaning);
+                                p.setAttribute('data-meaning',(secondbtns.btn6.listNames[z][i].meaning === undefined) ? secondbtns.btn6.listNames[z][i].description : secondbtns.btn6.listNames[z][i].meaning);
                                 p.setAttribute('data-unicode',secondbtns.btn6.listNames[z][i].unicode);
                                 p.setAttribute('onClick', 'addToCpx(this)');
                                 p.textContent = secondbtns.btn6.listNames[z][i].emoji;
@@ -640,7 +722,7 @@
                             for(let i = 0; i <secondbtns.btn7.listNames[z].length;i++){
                                 // console.log(secondbtns.btn1.listNames[0][0].emoji);    
                                 var p =document.createElement('p');
-                                p.setAttribute('data-meaning',secondbtns.btn7.listNames[z][i].meaning);
+                                p.setAttribute('data-meaning',(secondbtns.btn7.listNames[z][i].meaning === undefined) ? secondbtns.btn7.listNames[z][i].description : secondbtns.btn7.listNames[z][i].meaning);
                                 p.setAttribute('data-unicode',secondbtns.btn7.listNames[z][i].unicode);
                                 p.setAttribute('onClick', 'addToCpx(this)');
                                 p.textContent = secondbtns.btn7.listNames[z][i].emoji;
@@ -656,7 +738,7 @@
                             for(let i = 0; i <secondbtns.btn8.listNames[z].length;i++){
                                 // console.log(secondbtns.btn1.listNames[0][0].emoji);    
                                 var p =document.createElement('p');
-                                p.setAttribute('data-meaning',secondbtns.btn8.listNames[z][i].meaning);
+                                p.setAttribute('data-meaning',(secondbtns.btn8.listNames[z][i].meaning === undefined) ? secondbtns.btn8.listNames[z][i].description : secondbtns.btn8.listNames[z][i].meaning);
                                 p.setAttribute('data-unicode',secondbtns.btn8.listNames[z][i].unicode);
                                 p.setAttribute('onClick', 'addToCpx(this)');
                                 p.textContent = secondbtns.btn8.listNames[z][i].emoji;
@@ -744,13 +826,45 @@
 shBoxSlider();
 
 function copyToClipboard(){
-    
+    var inputElement = document.getElementById("cppBox");
+    inputElement.select();
+    inputElement.setSelectionRange(0, 99999);
+
+    document.execCommand('copy');
+    // alert("Text copied to clipboard: " + inputElement.value);
+    const copiedMsg = document.getElementById("copiedMsg");
+    copiedMsg.style.display = 'block';
+
+    const cppBtn =document.getElementById("cppBtn");
+    cppBtn.style.background = 'rgb(0, 72, 0)';
+    cppBtn.style.color = 'white';
+    timeOutClipBoard();
+
 }
 
+function timeOutClipBoard(){
+   const copiedMsg = document.getElementById("copiedMsg");
+   const cppBtn =document.getElementById("cppBtn");
+   setTimeout(function(){
+    copiedMsg.style.display = 'none';
+    
+    cppBtn.style.background = 'rgb(255, 226, 39)';
+    cppBtn.style.color = '#000000';
+
+    // text box slid 
+
+    setTimeout(function(){
+        hideCppBar();
+    },1000)
+
+   },2000);
+}
         </script>
+
+
+<!-- EmojiPAkaya6454@2024 -->
 </body>
 </html>
-
 
 
 

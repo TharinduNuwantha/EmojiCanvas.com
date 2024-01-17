@@ -400,6 +400,9 @@ nav .links ul li a:hover{
     font-family: 'Dhurjati', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
+.wpapper .disCover .display1 .displyBoder{
+    transition: all 1s ease-in-out;
+}
 .wpapper .disCover .display1 .displyBoder .display button#rightSlider{
     background-color: rgb(11, 11, 11);
     width: 30px;
@@ -418,6 +421,7 @@ font-family: 'Roboto', sans-serif;
     min-height: 100px;
     background-color: #e2e2e2;    
     transition: all 1s ease-in-out;
+    min-height: 200px;
 }
 .wapper2 .keyBordCover h3{
     padding: 5px;
@@ -436,7 +440,7 @@ font-family: 'Roboto', sans-serif;
     flex-wrap: wrap;transition: all 1s ease-in-out;
 }
 .wapper2 .keyBordCover .keboard p{
-    font-size: 27px;
+    font-size: 33px;
     cursor: pointer;
     padding: 5px;
     /* background-color: #ffffff;   */
@@ -558,7 +562,8 @@ font-family: 'Roboto', sans-serif;
         width: 95%;
     }
     .wapper2 .keyBordCover .keboard p{
-        font-size: 27px;
+        font-size: 33px;
+        /* 27 */
     }
     .loardMor{
         width: 95%;
@@ -593,4 +598,183 @@ font-family: 'Roboto', sans-serif;
 }
 .barShow{
     left: 0;
+}
+.wpapper .disCover .display1 .displyBoder p#copiedMsg{
+  background-color: rgb(34, 183, 34);
+  color: white;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.5s ease-in-out;
+  display: none;
+}
+.cppMsg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (min-width:800px){
+    .wpapper .disCover .display1 .displyBoder{
+
+        margin: auto;
+    }
+    .wpapper .disCover .display1 .displyBoder p#copiedMsg{
+        width: 80%;
+    }
+}
+.linkBoxCover {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkBoxCover .linkBackCover{
+    margin: 50px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.linkBoxCover .linkBackCover .linkBox{
+    width: 150px;
+    height: 200px;
+    /* background-color: rgb(253, 218, 20); */
+    padding: 20px;
+    border: 1px solid rgb(70, 66, 66);
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.linkBoxCover .linkBackCover .linkBox button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin: 10px 0 5px 0;
+    background-color: #323131;
+    color: white;
+    border: none;
+    transition: all 0.5s ease-in-out;
+}
+.linkBoxCover .linkBackCover .linkBox button:hover{
+    background-color: #84690080;
+}
+.article{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article .articleCover{
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.article .articleCover .articleBox{
+    padding: 5px;
+    margin: 15px;
+    color: #1d1d1d;
+}
+.article .articleCover .articleBox p.atlhddn{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width:800px){
+    .article .articleCover{
+        width: 100%;
+    }
+    .article .articleBox{
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width:800px){
+    .article .articleBox{
+        width: 30%;
+    }
+}
+
+footer{
+    width: 100%;
+    padding: 5px;
+    background-color: #1d1d1d;
+    color: #e2e2e2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer .footerRow{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center;
+}
+footer .footerRow .ftlogo span{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer .footerRow .ftlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer .footerRow .ftlinks a {
+    color: #e2e2e2;
+    transition: color 0.5s ease-in-out;
+    padding: 0 5px;
+}
+footer .footerRow .ftlinks a:hover{
+    color: rgb(243, 243, 0);
+}
+@media only screen and (max-width:350px){
+    footer .footerRow{
+        padding: 5px;
+    }
+    footer .footerRow .ftlinks a{
+        padding: 0 3px;
+        font-size: 15px;
+    } 
+}
+
+footer .fuuterBotem{
+    width: 100%;
+    background-color: #000000;
+    color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.bannerAddCover{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 15px 0;
+}
+.bannerAddCover .bannerBox{
+    width: 80%;
+    background-color: #b7b7b7;
+}
+.bannerAddCover .bannerBox .banner{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width:800px){
+    .bannerAddCover .bannerBox{
+        width: 95%;
+    }
 }
