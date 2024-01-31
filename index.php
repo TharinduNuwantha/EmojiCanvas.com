@@ -55,14 +55,20 @@
                 </div>
                 <div class="searchBox">
                     <form id="sharchForm" action="searchResult.php"></form>
-                    <input type="text" id="searchBox" class="searchBox" placeholder="Search templates...">
-                    <button id="mainSearchBox">Search</button>
+                    <input type="text" id="searchBox" class="searchBox" placeholder="Search templates..." oninput="userSearch()" name="searchBox"  form="sharchForm">
+                    <button id="mainSearchBox" onclick="hideSearch()">Search</button>
+                    
                 </div>
                 <div class="spase1"></div>
                 <div class="sh_reslt_cover">
                 <div class="search_reslult_box">
                     <ul id='shList'>
-                        
+                    <a href="#" id="searchRsPross"><li>
+                        <div class="imojiCll">
+                            <!-- <span>🙂</span> -->
+
+                        </div>
+                    </li></a>
                     </ul>
                 </div>
                 </div>
@@ -79,6 +85,7 @@
                         <div class="display">
                             <button id="rightSlider" onClick="hideCppBar()"><img src="img/main/right-arrow-100.png" alt="hideBar" width="30px"></button>
                             <input type="text" id="cppBox">
+                            <button id="clearSearchBox" class="clearSearchBox" onclick="clearSearchBox()">CL</button>
                             <button onclick="copyToClipboard()" id="cppBtn">Copy</button>
                         </div>
                     </div>
@@ -350,13 +357,15 @@
             <div class="mnSltBttn">
                 <div class="mainBtnCover flex">
                     <button onClick="seondBTN(1)" class="sendBarBtns active2"><p data-meaning="Smiling face" data-unicode="U+U+1F600">😀</p></button>
-                    <button onClick="seondBTN(2)" class="sendBarBtns"><p data-meaning="Lion" data-unicode="U+1F981">🦁</p></button>
-                    <button onClick="seondBTN(3)" class="sendBarBtns"><p data-meaning="Smiling face" data-unicode="U+1F9C1">🧁</p></button>
-                    <button onClick="seondBTN(4)" class="sendBarBtns"><p data-meaning="Soccer ball" data-unicode="U+26BD">⚽</p></button>
-                    <button onClick="seondBTN(5)" class="sendBarBtns"><p data-meaning="Delivery truck" data-unicode="U+1F69A">🚚</p></button>
-                    <button onClick="seondBTN(6)" class="sendBarBtns"><p data-meaning="Clapper board" data-unicode="U+1F3AC">🎬</p></button>
-                    <button onClick="seondBTN(7)" class="sendBarBtns"><p data-meaning="Input Latin uppercas" data-unicode="U+1F520U+1F520">🔠</p></button>
-                    <button onClick="seondBTN(8)" class="sendBarBtns"><p data-meaning="Triangular flag" data-unicode="U+1F6A9">🚩</p></button>
+                    <button onClick="seondBTN(2)" class="sendBarBtns"><p data-meaning="red love heart emoji" data-unicode=" U+2764">❤️</p></button>
+                    <button onClick="seondBTN(3)" class="sendBarBtns"><p data-meaning="Fire" data-unicode="U+1F525">🔥</p></button>
+                    <button onClick="seondBTN(4)" class="sendBarBtns"><p data-meaning="Lion" data-unicode="U+1F981">🦁</p></button>
+                    <button onClick="seondBTN(5)" class="sendBarBtns"><p data-meaning="Smiling face" data-unicode="U+1F9C1">🧁</p></button>
+                    <button onClick="seondBTN(6)" class="sendBarBtns"><p data-meaning="Soccer ball" data-unicode="U+26BD">⚽</p></button>
+                    <button onClick="seondBTN(7)" class="sendBarBtns"><p data-meaning="Delivery truck" data-unicode="U+1F69A">🚚</p></button>
+                    <button onClick="seondBTN(8)" class="sendBarBtns"><p data-meaning="Clapper board" data-unicode="U+1F3AC">🎬</p></button>
+                    <button onClick="seondBTN(9)" class="sendBarBtns"><p data-meaning="Input Latin uppercas" data-unicode="U+1F520U+1F520">🔠</p></button>
+                    <button onClick="seondBTN(10)" class="sendBarBtns"><p data-meaning="Triangular flag" data-unicode="U+1F6A9">🚩</p></button>
                 </div>
             </div>
         </div>
@@ -561,36 +570,47 @@
                     listNames:[Smiley_Face_Emojis,Emotional_Faces_Emojis,Faces_with_Tongue_Emojis,Faces_with_Hands_Emojis,Neutral_Faces_Emojis,Sleepy_Faces_Emojis,Sick_Faces_Emojis,Concerned_Faces_Emojis,Negative_Faces_Emojis,Costume_Faces_Emojis,Complex_Faces_Emojis,Cat_Faces_Emojis,Monkey_Faces_Emojis,Body_Parts_Emojis,Person_Emojis,Family_Emojis,Clothing_Objects_Emojis]
                 },
                 btn2:{
+                    title:"Hearts and love",
+                    listNames:[Emotion_Emojis,harts_emojis,Emotional_Faces_Emojis]
+                },
+
+                btn3:{
+                    title:"Top & popular",
+                    listNames:[topImojis]
+                },
+                btn4:{
                     title:"Animals & nature",
                     listNames:[Animals_and_Nature_Emojis,Sky_and_Weather_Emojis]
                 },
-                btn3:{
+
+                btn5:{
                     title:"Food & drink",
-                    listNames:[Food_and_Drinks_Emojis,]
+                    listNames:[Food_and_Drinks_Emojis]
                 },
-                btn4:{
+                btn6:{
                     title:"Activity",
                     listNames:[Sport_Emojis,Games_Emojis,Musical_Instrument_Emojis,Award_Medals_Emojis,Arts_and_Crafts_Emojis,Activity_Emojis]
                 },
-                btn5:{
+                btn7:{
                     title:"Travel & places",
                     listNames:[Transport_Emojis,Travel_and_Places_Emojis,Activity_Emojis]
                 },
-                btn6:{
+                btn8:{
                     title:"Objects",
                     listNames:[Phone_Emojis,Computer_Emojis,Light_and_Video_Emojis,Book_and_Paper_Emojis,Mail_Emojis,Writing_Emojis,Office_Emojis,Tools_Emojis,Science_Emojis,Medical_Emojis,Household_Emojis,Other_Objects_Emojis,Lock_Emojis]
 
                 },
                 
-                btn7:{
+                btn9:{
                     title:"Symbols",
                     listNames:[Emotion_Emojis,Symbols_Emojis,Warning_Emojis,Arrow_Emojis,Religion_Emojis,Zodiac_Emojis,AV_Symbols_Emojis,Gender_Emojis,Math_Symbols_Emojis,Punctuation_Symbols_Emojis,Currency_Emojis,Other_Symbols_Emojis,Keycap_Emojis,Alphanumeric_Symbols_Emojis,Japanese_Buttons_Emojis,Geometric_Emojis,Sound_Emojis,Time_Emojis]
 
                 },
-                btn8:{
+                btn10:{
                     title:"flags",
                     listNames:[CountryFlags_Emojis,Flags_Emojis]
-                }
+                },
+                
                 
                 
             };
@@ -634,41 +654,43 @@
                             }
                         }
                         break;
-                    case 2:
+                        case 2:
                         activeSendBar(val);
-                        keybdHed.innerText = secondbtns.btn2.title;  
+                        keybdHed.innerText = secondbtns.btn2.title;
+                        //  console.log(secondbtns.btn1.listNames[0]);
                         for(let z =0;z<secondbtns.btn2.listNames.length;z++){
 
                             for(let i = 0; i <secondbtns.btn2.listNames[z].length;i++){
                                 // console.log(secondbtns.btn1.listNames[0][0].emoji);    
                                 var p =document.createElement('p');
-                                p.setAttribute('data-meaning',(secondbtns.btn2.listNames[z][i].meaning === undefined) ? secondbtns.btn2.listNames[z][i].description : secondbtns.btn2.listNames[z][i].meaning);
+                                p.setAttribute('data-meaning', (secondbtns.btn2.listNames[z][i].meaning === undefined) ? secondbtns.btn2.listNames[z][i].description : secondbtns.btn2.listNames[z][i].meaning);
                                 p.setAttribute('data-unicode',secondbtns.btn2.listNames[z][i].unicode);
                                 p.setAttribute('onClick', 'addToCpx(this)');
                                 p.textContent = secondbtns.btn2.listNames[z][i].emoji;
                                 keboard.appendChild(p);
                             }
-                        }  
-                        break;
-                    case 3:
+                        }
+                        break;                        
+                        case 3:
                         activeSendBar(val);
                         keybdHed.innerText = secondbtns.btn3.title;
+                        //  console.log(secondbtns.btn1.listNames[0]);
                         for(let z =0;z<secondbtns.btn3.listNames.length;z++){
 
                             for(let i = 0; i <secondbtns.btn3.listNames[z].length;i++){
                                 // console.log(secondbtns.btn1.listNames[0][0].emoji);    
                                 var p =document.createElement('p');
-                                p.setAttribute('data-meaning',(secondbtns.btn3.listNames[z][i].meaning === undefined) ? secondbtns.btn3.listNames[z][i].description : secondbtns.btn3.listNames[z][i].meaning);
+                                p.setAttribute('data-meaning', (secondbtns.btn3.listNames[z][i].meaning === undefined) ? secondbtns.btn3.listNames[z][i].description : secondbtns.btn3.listNames[z][i].meaning);
                                 p.setAttribute('data-unicode',secondbtns.btn3.listNames[z][i].unicode);
                                 p.setAttribute('onClick', 'addToCpx(this)');
                                 p.textContent = secondbtns.btn3.listNames[z][i].emoji;
                                 keboard.appendChild(p);
                             }
-                        }  
-                        break;     
+                        }
+                        break;                        
                     case 4:
                         activeSendBar(val);
-                        keybdHed.innerText = secondbtns.btn4.title;
+                        keybdHed.innerText = secondbtns.btn4.title;  
                         for(let z =0;z<secondbtns.btn4.listNames.length;z++){
 
                             for(let i = 0; i <secondbtns.btn4.listNames[z].length;i++){
@@ -697,7 +719,7 @@
                                 keboard.appendChild(p);
                             }
                         }  
-                        break;
+                        break;     
                     case 6:
                         activeSendBar(val);
                         keybdHed.innerText = secondbtns.btn6.title;
@@ -732,7 +754,7 @@
                         break;
                     case 8:
                         activeSendBar(val);
-                        keybdHed.innerText = secondbtns.btn8.title; 
+                        keybdHed.innerText = secondbtns.btn8.title;
                         for(let z =0;z<secondbtns.btn8.listNames.length;z++){
 
                             for(let i = 0; i <secondbtns.btn8.listNames[z].length;i++){
@@ -742,6 +764,38 @@
                                 p.setAttribute('data-unicode',secondbtns.btn8.listNames[z][i].unicode);
                                 p.setAttribute('onClick', 'addToCpx(this)');
                                 p.textContent = secondbtns.btn8.listNames[z][i].emoji;
+                                keboard.appendChild(p);
+                            }
+                        }  
+                        break;
+                    case 9:
+                        activeSendBar(val);
+                        keybdHed.innerText = secondbtns.btn9.title;
+                        for(let z =0;z<secondbtns.btn9.listNames.length;z++){
+
+                            for(let i = 0; i <secondbtns.btn9.listNames[z].length;i++){
+                                // console.log(secondbtns.btn1.listNames[0][0].emoji);    
+                                var p =document.createElement('p');
+                                p.setAttribute('data-meaning',(secondbtns.btn9.listNames[z][i].meaning === undefined) ? secondbtns.btn9.listNames[z][i].description : secondbtns.btn9.listNames[z][i].meaning);
+                                p.setAttribute('data-unicode',secondbtns.btn9.listNames[z][i].unicode);
+                                p.setAttribute('onClick', 'addToCpx(this)');
+                                p.textContent = secondbtns.btn9.listNames[z][i].emoji;
+                                keboard.appendChild(p);
+                            }
+                        }  
+                        break;
+                    case 10:
+                        activeSendBar(val);
+                        keybdHed.innerText = secondbtns.btn10.title; 
+                        for(let z =0;z<secondbtns.btn8.listNames.length;z++){
+
+                            for(let i = 0; i <secondbtns.btn10.listNames[z].length;i++){
+                                // console.log(secondbtns.btn1.listNames[0][0].emoji);    
+                                var p =document.createElement('p');
+                                p.setAttribute('data-meaning',(secondbtns.btn10.listNames[z][i].meaning === undefined) ? secondbtns.btn10.listNames[z][i].description : secondbtns.btn10.listNames[z][i].meaning);
+                                p.setAttribute('data-unicode',secondbtns.btn10.listNames[z][i].unicode);
+                                p.setAttribute('onClick', 'addToCpx(this)');
+                                p.textContent = secondbtns.btn10.listNames[z][i].emoji;
                                 keboard.appendChild(p);
                             }
                         }  

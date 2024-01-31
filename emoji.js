@@ -984,6 +984,11 @@ var  harts_emojis = [
         unicode: 'U+2764'
     },
     {
+        emoji: '❤️',
+        description: 'red love heart emoji',
+        unicode: 'U+2764'
+    },
+    {
         emoji: '❤',
         description: 'Red heart',
         unicode: 'U+2764'
@@ -1028,6 +1033,12 @@ var  harts_emojis = [
         description: 'White heart',
         unicode: 'U+1F90D'
     },
+    {
+        emoji: '❣️',
+        description: '',
+        unicode: ''
+    },
+
 ];
 
 
@@ -3022,3 +3033,275 @@ const CountryFlags_Emojis = [
 { emoji: '🇿🇲', meaning: 'Zambia flag', unicode: 'U+1F1FF U+1F1F2' },
 { emoji: '🇿🇼', meaning: 'Zimbabwe flag', unicode: 'U+1F1FF U+1F1FC' }
 ];
+
+var topImojis = [
+    {
+        emoji: '😂',
+        description: 'Laughing with tears',
+        unicode: 'U+1F602'
+    },
+    {
+        emoji: '❤️',
+        description: 'red love heart emoji',
+        unicode: 'U+2764'
+    },
+    {
+        emoji: '🤣',
+        description: 'Rolling on the floor laughing',
+        unicode: 'U+1F923'
+    },
+    {
+        emoji: '👍',
+        description: 'Thumbs up',
+        unicode: 'U+1F44D'
+    },
+    {
+        emoji: '😭',
+        description: 'Loudly crying face',
+        unicode: 'U+1F62D'
+    },
+    {
+        emoji: '🙏',
+        description: 'Praying hands',
+        unicode: 'U+1F64F'
+    },
+    {
+        emoji: '😘',
+        description: 'Face blowing kiss',
+        unicode: 'U+1F618'
+    },
+        {
+        emoji: '🥰',
+        description: 'Smiling face with hearts',
+        unicode: 'U+1F970'
+    },
+        {
+        emoji: '😍',
+        description: 'Smiling face with heart eyes',
+        unicode: 'U+1F60D'
+    },
+        {
+        emoji: '😊',
+        description: 'Smiling face with smiling eyes',
+        unicode: 'U+1F60A'
+    },
+    { emoji: '🎉', meaning: 'Party popper', unicode: 'U+1F389' },
+        {
+        emoji: '😁',
+        description: 'Beaming face with smiling eyes',
+        unicode: 'U+1F601'
+    },
+        {
+        emoji: '💕',
+        description: 'Two hearts',
+        unicode: 'U+1F495'
+    },
+        {
+        emoji: '🥺',
+        description: 'Begging face',
+        unicode: 'U+1F97A'
+    },
+        {
+        emoji: '😅',
+        description: 'Smiling face with tears',
+        unicode: 'U+1F605'
+    },
+    { emoji: '🔥', meaning: 'Fire', unicode: 'U+1F525' },
+    { emoji: '🤦‍♂️', description: 'Man facepalming', unicode: 'U+1F926 U+200D U+2642 U+FE0F' },
+    { emoji: '🤦‍♀️', description: 'Woman facepalming', unicode: 'U+1F926 U+200D U+2640 U+FE0F' },
+    { emoji: '🤷‍♂️', description: 'Man shrugging', unicode: 'U+1F937 U+200D U+2642 U+FE0F' },
+        {
+        emoji: '🙄',
+        description: 'Face with rolling eyes',
+        unicode: 'U+1F644'
+    },
+        {
+        emoji: '😆',
+        description: 'Grinning face',
+        unicode: 'U+1F606'
+    },
+        {
+        emoji: '🤗',
+        description: 'Hugs',
+        unicode: 'U+1F917'
+    },
+        {
+        emoji: '😉',
+        description: 'Winking face',
+        unicode: 'U+1F609'
+    },
+     { emoji: '🎂', meaning: 'Birthday cake', unicode: 'U+1F382' },
+         {
+        emoji: '🤔',
+        description: 'Thinking face',
+        unicode: 'U+1F914'
+    },
+        {
+        emoji: '👏',
+        description: 'Clapping hands',
+        unicode: 'U+1F44F'
+    },
+        {
+        emoji: '🙂',
+        description: 'Slightly smiling face',
+        unicode: 'U+1F642'
+    },
+        {
+        emoji: '😳',
+        description: 'Flushed face',
+        unicode: 'U+1F633'
+    },
+        {
+        emoji: '🥳',
+        description: 'Partying face',
+        unicode: 'U+1F973'
+    },
+        {
+        emoji: '😎',
+        description: 'Smiling face with sunglasses',
+        unicode: 'U+1F60E'
+    },
+        {
+        emoji: '👌',
+        description: 'Ok',
+        unicode: 'U+1F44C'
+    },
+        {
+        emoji: '😔',
+        description: 'Pensive face',
+        unicode: 'U+1F614'
+    },
+        {
+        emoji: '💪',
+        description: 'Flexed biceps',
+        unicode: 'U+1F4AA'
+    },
+    { emoji: '✨', meaning: 'Sparkles', unicode: 'U+2728' },
+        {
+        emoji: '💖',
+        description: 'Sparking heart',
+        unicode: 'U+1F496'
+    },
+        {
+        emoji: '👀',
+        description: 'Eyes',
+        unicode: 'U+1F440'
+    },
+        {
+        emoji: '😋',
+        description: 'Yummy face',
+        unicode: 'U+1F60B'
+    },
+        {
+        emoji: '😏',
+        description: 'Smirking face',
+        unicode: 'U+1F60F'
+    },
+        {
+        emoji: '😢',
+        description: 'Crying face',
+        unicode: 'U+1F622'
+    },
+        {
+        emoji: '👉',
+        description: 'Index finger pointing right',
+        unicode: 'U+1F449'
+    },
+        {
+        emoji: '😩',
+        description: 'Weary face',
+        unicode: 'U+1F629'
+    },
+        {
+        emoji: '💯',
+        description: 'Hundred(correct)',
+        unicode: 'U+1F4AF'
+    },
+ { emoji: '🌹', meaning: 'Rose', unicode: 'U+1F339' },
+     {
+        emoji: '💞',
+        description: 'Revolving heart',
+        unicode: 'U+1F49E'
+    },
+    { emoji: '🎈', meaning: 'Balloon', unicode: 'U+1F388' },
+        {
+        emoji: '😡',
+        description: 'Pouting face',
+        unicode: 'U+1F621'
+    },
+        {
+        emoji: '😜',
+        description: 'Winking face with tongue',
+        unicode: 'U+1F61C'
+    },
+        {
+        emoji: '🤞',
+        description: 'Crossed fingers',
+        unicode: 'U+1F91E'
+    },
+        {
+        emoji: '🙌',
+        description: 'Raised hands',
+        unicode: 'U+1F64C'
+    },
+        {
+        emoji: '💀',
+        description: 'Skull',
+        unicode: 'U+1F480'
+    },
+     { emoji: '👑', meaning: 'Crown', unicode: 'U+1F451' },
+     { emoji: '🎁', meaning: 'Wrapped gift', unicode: 'U+1F381' },
+         {
+        emoji: '💥',
+        description: 'Collision',
+        unicode: 'U+1F4A5'
+    },
+     { emoji: '🙋‍♂️', description: 'Man raising hand', unicode: 'U+1F64B U+200D U+2642 U+FE0F' },
+         {
+        emoji: '💩',
+        description: 'Pile of poo',
+        unicode: 'U+1F4A9'
+    },
+    { emoji: '✅', meaning: 'Green box with checkmark', unicode: 'U+2705' },
+    { emoji: '⭐', meaning: 'Star', unicode: 'U+2B50' },
+    { emoji: '🌟', meaning: 'Glowing star', unicode: 'U+1F31F' },
+     { emoji: '❗', meaning: 'Red exclamation mark', unicode: 'U+2757' },
+      { emoji: '🌻', meaning: 'Sunflower', unicode: 'U+1F33B' },
+          {
+        emoji: '👊',
+        description: 'Fist',
+        unicode: 'U+1F44A'
+    },
+        {
+        emoji: '👁️‍🗨️',
+        description: 'Eye in speech bubble',
+        unicode: 'U+1F441 U+FE0F U+200D U+1F5E8 U+FE0F'
+    },
+    { emoji: '⚡', meaning: 'High voltage', unicode: 'U+26A1' },
+     { emoji: '☕', meaning: 'Hot beverage', unicode: 'U+2615' },
+         {
+        emoji: '💦',
+        description: 'Sweat droplets',
+        unicode: 'U+1F4A6'
+    },
+        {
+        emoji: '💤',
+        description: 'zzz',
+        unicode: 'U+1F4A4'
+    },
+        {
+        emoji: '🤝',
+        description: 'Handshake',
+        unicode: 'U+1F91D'
+    },
+        {
+        emoji: '💘',
+        description: 'Heart with arrow',
+        unicode: 'U+1F498'
+    },
+    { emoji: '🌙', meaning: 'Crescent moon', unicode: 'U+1F319' }
+
+    
+
+];
+
