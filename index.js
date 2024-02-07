@@ -8,7 +8,7 @@ function navBar(){
             mobileNav.style.right = '0';
             num = false;
         }else{
-            valueav.style.right = '200%';
+            mobileNav.style.right = '200%';
             num = true;
         }
     });

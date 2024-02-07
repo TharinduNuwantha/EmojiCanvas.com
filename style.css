@@ -230,12 +230,15 @@ nav .links ul li a:hover{
 .search_reslult_box ul{
     list-style: none;
 }
-.search_reslult_box ul li{
-    /* padding: 5px; */
-}
+
 .search_reslult_box ul a{
     color: #000000;
     text-decoration: none;
+    
+}
+.search_reslult_box ul li span{
+    font-size: 20px;
+
 }
 .search_reslult_box ul li:hover{
     background-color: rgb(229, 227, 224);
