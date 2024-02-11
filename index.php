@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EmojiCanvas.com</title>
+    <title>Copy and Paste Emojis - emojimy.com ❤️💜 💖 💚 💛</title>
+    <link rel="icon" href="./img/main/emojiFase.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <meta name="description" content="emoji copy and paste ❤️ 😂 😭 🙏 😘 🥰 😍 🎉 🔥 🤗 🙄 🎂 😎 💜 💖 👀 💯 💗 💙 🙈 ❣️ 💔 💓 💚 😛 🎁 🖤 😆 😋 ✨ 😢 🤩 🙃 😒 😱 😈 😇 ✅ 🌈 💛 👊 🤬 ⚡ 💦 🌷 🌙 ⭐"> 
+    <meta name="keywords" content="emoji,emoji meanings,emoji copy and paste,heart emoji,thumbs up emoji,laughing emoji,nerd emoji,skull emoji,eyes emoji,shrug emoji,thinking emoji,sad emoji,fire emoji,eye emoji,poop emoji,emoji kitchen,star emoji,smile emoji,cursed emoji,shocked emoji,laugh emoji,blush emoji,blue emoji,angry emoji,salute emoji,heart eyes emoji,smiling emoji,happy emoji,check mark emoji,discord emoji,wink emoji,middle finger emoji,sparkle emoji,lip bite emoji,eye roll emoji,clown emoji,b emoji,side eye emoji,snapchat emoji meanings,sad face emoji,kiss emoji,blushing emoji,purple heart emoji,think emoji,surprised emoji,emoji symbols,devil emoji,emoji keyboard,sweat emoji,smiley face emoji,smirk emoji,laughing crying emoji,rolling eyes emoji,flower emoji,hug emoji,100 emoji,confused emoji,blue heart emoji,cool emoji,current phase of the moon emoji,sunglasses emoji,scared emoji,crying laughing emoji,checkmark emoji,chefs kiss emoji,blue emoji meme,eggplant emoji,hand emoji,cross emoji,prayer emoji,emo emoji,prayer hands emoji,pink heart emoji,white heart emoji,clap emoji,sun emoji,emoji faces,biting lip emoji,cry emoji,cat emoji,mad emoji,high five emoji,black heart emoji,money emoji,monkey emoji,skull emoji copy and paste,love emoji,fingers crossed emoji,emoji png,twitter emoji,crown emoji,wave emoji,sob emoji,clapping emoji,heart eyes emoji">
+    <meta name="robots" content="index, follow">  
+    <meta name="author" content="joson brion">
+    <meta name="google-adsense-account" content="ca-pub-8740792732131678" />
+
+    <meta property="og:site_name" content="emojimy.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="emojimy.com" />
+    <meta property="og:title" content="Copy and Paste Emojis - emojimy.com ❤️💜 💖 💚 💛" />
+    <meta property="og:description" content="emoji copy and paste ❤️ 😂 😭 🙏 😘 🥰 😍 🎉 🔥 🤗 🙄 🎂 😎 💜 💖 👀 💯 💗 💙 🙈 ❣️ 💔 💓 💚 😛 🎁 🖤 😆 😋 ✨ 😢 🤩 🙃 😒 😱 😈 😇 ✅ 🌈 💛 👊 🤬 ⚡ 💦 🌷 🌙 ⭐" />
+    <meta property="og:image" content="./img/main/ee.png" />
+    <meta property="og:locale" content="en_US" />
 </head>
 <body>
 <?php include('topBar.php');?>
@@ -12,9 +26,9 @@
         <div class="searchArea">
             <div class="boxSerch" id="boxSerch">
                 <div class="shBoxText">
-                    <p class="title1" id="i">EmojiCanvas.com</p>
+                    <p class="title1" id="i">EmojiMy.com</p>
                     
-                    <!-- <p class="title2">Explore CapCut's Vast Template Library, Thousands of Free Trending Templates Await You! Easily Create Stunning Videos and Images</p> -->
+                   
                 </div>
                 <div class="searchBox">
                     <form id="sharchForm" action="searchResult.php"></form>
@@ -343,7 +357,36 @@
 
     <div class="bannerAddCover">
         <div class="bannerBox">
-            <div class="banner"><p>responsive ads</p></div>
+            <div class="banner">
+
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8740792732131678"
+                    crossorigin="anonymous"></script>
+                <!-- emojimy.com -->
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-8740792732131678"
+                    data-ad-slot="1167187911"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8740792732131678"
+                    crossorigin="anonymous"></script>
+                <!-- emojimy.com -->
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-8740792732131678"
+                    data-ad-slot="1167187911"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+            
+            </div>
         </div>
     </div>
 
@@ -373,6 +416,19 @@
         </div>
 
     </div>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8740792732131678"
+                    crossorigin="anonymous"></script>
+                <!-- emojimy.com -->
+                <ins class="adsbygoogle"
+                    style="display:block"
+                    data-ad-client="ca-pub-8740792732131678"
+                    data-ad-slot="1167187911"
+                    data-ad-format="auto"
+                    data-full-width-responsive="true"></ins>
+                <script>
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
 
     <div class="article">
        <div class="articleCover"> 
@@ -409,18 +465,7 @@
        </div> 
     </div>
 
-    <footer>
-        <div class="footerRow">
-            <div class="ftlogo"><span>EmojiCanvas.com</span></div>
-            <div class="ftlinks">
-                <span><a href="#">About us</a></span>
-                <span><a href="#">Contact us</a></span>
-            </div>
-        </div>
-        <div class="fuuterBotem">
-        &#169;<span id="currntYear"> </span>. || All Rights Reserved.
-        </div>
-    </footer>
+    <?php include('footer.php');?>
 
         <script src="index.js"></script>
         <script src="emoji.js"></script>

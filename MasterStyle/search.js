@@ -31,7 +31,7 @@ function userShShJS() {
 
                         anchorElement.setAttribute("href", "searchEmoji.php?emojiID="+element.id);
                         anchorElement.setAttribute("id", "searchRsPross");
-                        spanElement.textContent = element.emoji+" : "+element.name;
+                        spanElement.textContent = element.emoji+"  "+element.name;
                         listItemElement.appendChild(spanElement);
                         anchorElement.appendChild(listItemElement);
                         MasterUl.appendChild(anchorElement);

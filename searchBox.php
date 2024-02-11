@@ -1,7 +1,7 @@
 <div class="searchArea" id="searchArea">
             <div class="boxSerch" id="boxSerch">
                 <div class="shBoxText">
-                    <p class="title1" id="i">EmojiCanvas.com</p>
+                    <p class="title1" id="i">EmojiMy.com</p>
                     
                     <!-- <p class="title2">Explore CapCut's Vast Template Library, Thousands of Free Trending Templates Await You! Easily Create Stunning Videos and Images</p> -->
                 </div>

@@ -1,7 +1,7 @@
 <nav>
            <div class="navBar"> 
             <div class="logo">
-                 <img src="img/main/emojiFase.png" alt="hart" width="35 px"> <a href="./" style="text-decoration: none;">EmojiCanvas.com</a>
+                 <img src="img/main/emojiFase.png" alt="hart" width="35 px"> <a href="./" style="text-decoration: none;">EmojiMy.com</a>
             </div>
             <div class="links">
                 <ul>
@@ -31,7 +31,7 @@
                 </ul>
 
                 <div class="mb-logo">
-                EmojiCanvas.com
+                EmojiMy.com
                 </div>
             </div>
         </div>
