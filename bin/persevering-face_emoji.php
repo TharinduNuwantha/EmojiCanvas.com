@@ -1,5 +1,6 @@
+
 <?php
-include 'inc/connection.php';
+include '../inc/connection.php';
 $sessionOne = '';   
 $sessionTwo = '';
 $sessionThre = '';
@@ -8,9 +9,7 @@ $row ='';
 $rowCount = 0;
 $addsByGoogle ='';
 
-
-
-if (isset($_GET['searchResult']) OR isset($_GET['emojiID'])) {
+$_GET['emojiID']="94";if (isset($_GET['searchResult']) OR isset($_GET['emojiID'])) {
 
     if(isset($_GET['emojiID'])){
         $sql = "SELECT * FROM emojidb WHERE id = '{$_GET['emojiID']}' LIMIT 1";    
@@ -31,17 +30,17 @@ if (isset($_GET['searchResult']) OR isset($_GET['emojiID'])) {
                     <br>
                     <div class="line"></div>
                     <br><br>
-                    <div class="imojiBox" title="' . $row['description']. ' emoji'. '" description = "' . $row['description'].' emoji copy and paste' . '">
+                    <div class="imojiBox" title="persevering face emoji" description = "persevering face emoji copy and paste">
                         <div class="imojiMdBox">
                             <div class="mainImoj">
-                                <span class="imjSpan" title="' . $row['description']. ' emoji'. '">' . $row['emoji'] . '</span>
+                                <span class="imjSpan" title="persevering face emoji">😣</span>
                             </div>
                             <div class="buttonROw"><button id="btnCpp">copy</button></div>
                         </div>
                     </div>
                     <p class="copiedMsg hide" id="copiedMsg">Emoji successfully copied! 🎉</p>
                     <div class="description">
-                        <p title="description about ' . $row['description']. ' emoji'.'">';
+                        <p title="description about persevering face emoji">';
 
         $sessionTwo = $row['description_long'];
         $addsByGoogle = '<br><br><div class="googleAdds">
@@ -75,30 +74,30 @@ if (isset($_GET['searchResult']) OR isset($_GET['emojiID'])) {
         <div class="line"></div><br><br>
                         </p>
                         <div class="dtlTable">
-                            <div class="tblCanves" title="' . $row['description']. ' emoji full details table">
+                            <div class="tblCanves" title="persevering face emoji full details table">
                                 <dl>
                                     <dt>Emoji</dt>
-                                    <dd>' . $row['emoji'] . '</dd>
+                                    <dd>😣</dd>
                                 </dl>
                                 <dl>
                                     <dt>Description</dt>
-                                    <dd>' . $row['description'] . '</dd>
+                                    <dd>persevering face</dd>
                                 </dl>
                                 <dl>
                                     <dt>Category</dt>
-                                    <dd>' . $row['category'] . '</dd>
+                                    <dd>Smileys & Emotion</dd>
                                 </dl>
                                 <dl>
                                     <dt>Subcategory</dt>
-                                    <dd>' . $row['subcategory'] . '</dd>
+                                    <dd>persevere</dd>
                                 </dl>
                                 <dl>
                                     <dt>Unicode Version</dt>
-                                    <dd>' . $row['unicode_code'] . '</dd>
+                                    <dd>6.0</dd>
                                 </dl>
                                 <dl>
                                     <dt>IOS Version</dt>
-                                    <dd>' . $row['ios_version'] . '</dd>
+                                    <dd>6.0</dd>
                                 </dl>
                             </div>
                         </div>
@@ -127,9 +126,9 @@ if (isset($_GET['searchResult']) OR isset($_GET['emojiID'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Copy and Paste Emojis - emojimy.com ❤️💜 💖 💚 💛</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./MasterStyle/style.css">
-    <link rel="stylesheet" href="./emojiCategories/redHartTest/style.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../MasterStyle/style.css">
+    <link rel="stylesheet" href="../emojiCategories/redHartTest/style.css">
     <meta name="description" content="emoji copy and paste ❤️ 😂 😭 🙏 😘 🥰 😍 🎉 🔥 🤗 🙄 🎂 😎 💜 💖 👀 💯 💗 💙 🙈 ❣️ 💔 💓 💚 😛 🎁 🖤 😆 😋 ✨ 😢 🤩 🙃 😒 😱 😈 😇 ✅ 🌈 💛 👊 🤬 ⚡ 💦 🌷 🌙 ⭐"> 
     <meta name="keywords" content="emoji,emoji meanings,emoji copy and paste,heart emoji,thumbs up emoji,laughing emoji,nerd emoji,skull emoji,eyes emoji,shrug emoji,thinking emoji,sad emoji,fire emoji,eye emoji,poop emoji,emoji kitchen,star emoji,smile emoji,cursed emoji,shocked emoji,laugh emoji,blush emoji,blue emoji,angry emoji,salute emoji,heart eyes emoji,smiling emoji,happy emoji,check mark emoji,discord emoji,wink emoji,middle finger emoji,sparkle emoji,lip bite emoji,eye roll emoji,clown emoji,b emoji,side eye emoji,snapchat emoji meanings,sad face emoji,kiss emoji,blushing emoji,purple heart emoji,think emoji,surprised emoji,emoji symbols,devil emoji,emoji keyboard,sweat emoji,smiley face emoji,smirk emoji,laughing crying emoji,rolling eyes emoji,flower emoji,hug emoji,100 emoji,confused emoji,blue heart emoji,cool emoji,current phase of the moon emoji,sunglasses emoji,scared emoji,crying laughing emoji,checkmark emoji,chefs kiss emoji,blue emoji meme,eggplant emoji,hand emoji,cross emoji,prayer emoji,emo emoji,prayer hands emoji,pink heart emoji,white heart emoji,clap emoji,sun emoji,emoji faces,biting lip emoji,cry emoji,cat emoji,mad emoji,high five emoji,black heart emoji,money emoji,monkey emoji,skull emoji copy and paste,love emoji,fingers crossed emoji,emoji png,twitter emoji,crown emoji,wave emoji,sob emoji,clapping emoji,heart eyes emoji">
     <meta name="robots" content="index, follow">  
@@ -145,9 +144,9 @@ if (isset($_GET['searchResult']) OR isset($_GET['emojiID'])) {
     <meta property="og:locale" content="en_US" />
 </head>
 <body>
-<?php include('topBar.php');?>
+<?php include('../topBar.php');?>
 
-        <?php include 'searchBox.php';?>
+        <?php include '../searchBox.php';?>
 
 <div class="flipbar"></div>
 <div class="googleAdds">
@@ -193,12 +192,12 @@ if (isset($_GET['searchResult']) OR isset($_GET['emojiID'])) {
 
 
     
-    $sql = "SELECT * FROM emojidb WHERE description LIKE '%{$Search_result}%' OR category LIKE '%{$Search_result}%' OR keywords LIKE '%{$Search_result}%' LIMIT 130";
+    $sql = "SELECT * FROM emojidb WHERE description LIKE '%{$Search_result}%' OR category LIKE '%{$Search_result}%' OR keywords LIKE '%{$Search_result}%' LIMIT 100";
     $result_set = mysqli_query($conn, $sql);
     
     if ($result_set) {
         while ($row = mysqli_fetch_assoc($result_set)) {
-            $lastParts2 .= '<a href="searchEmoji.php?emojiID=' . $row['id'] . '"><div class="senBox"><span title="' . $row['description']. ' emoji'.'">' . $row['emoji'] . '</span></div></a>';
+            $lastParts2 .= '<a href="../searchEmoji.php?emojiID=' . $row['id'] . '"><div class="senBox"><span>' . $row['emoji'] . '</span></div></a>';
         }
     }
 
@@ -246,11 +245,11 @@ if (isset($_GET['searchResult']) OR isset($_GET['emojiID'])) {
 
 <br><br>
 
-<?php include('footer.php');?>
-        <script src="index.js"></script>
-        <script src="./MasterStyle/index.js"></script>
-        <script src="./MasterStyle/search.js"></script>
-        <script src="emoji.js"></script>
+<?php include('../footer.php');?>
+        <script src="../index.js"></script>
+        <script src="../MasterStyle/index.js"></script>
+        <script src="../MasterStyle/search.js"></script>
+        <script src="../emoji.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js" integrity="sha512-jNDtFf7qgU0eH/+Z42FG4fw3w7DM/9zbgNPe3wfJlCylVDTT3IgKW5r92Vy9IHa6U50vyMz5gRByIu4YIXFtaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.js" integrity="sha512-FwqNPb8ENFXApJKNgRgYq5ok7VoOf5ImaOdzyF/xe/T5jdd/S0xq0CXBLDhpzaemxpQ61X3nLVln6KaczwhKgA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script>
@@ -263,7 +262,5 @@ if (isset($_GET['searchResult']) OR isset($_GET['emojiID'])) {
 <!-- EmojiPAkaya6454@2024 -->
 </body>
 </html>
-
-
 
 
