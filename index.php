@@ -349,7 +349,7 @@
     <div class="wapper2">
     <div class="keyBordCover">
              <!-- <h3>happy face</h3> -->
-             <h3 id="keybdHed">Smysl sdd sdkla</h3>
+             <h3 id="keybdHed">cargory name</h3>
                 <div class="keboard" id="keboard"> 
                 </div>
         </div>
@@ -396,21 +396,21 @@
             <div class="linkBox">
                 <div class="lnBox">
                     <span><img class="lazy" src="img/main/1.png" alt="Emoji meaning" width="150px" loading="lazy" /></span>
-                    <a href="searchEmoji.php?searchResult="> <button>Emoji meanings</button></a>
+                    <a href="./searchEmoji.php?searchResult="> <button>Emoji meanings</button></a>
                 </div>
             </div>
 
             <div class="linkBox">
                 <div class="lnBox">
                 <span><img class="lazy" src="img/main/2.png" alt="Emoji meaning" width="150px"></span>
-                    <a href="#"> <button>Emoji PNG</button></a>
+                    <a href="./commingSoon.html"> <button>Emoji PNG</button></a>
                 </div>
             </div>
 
             <div class="linkBox">
                 <div class="lnBox">
                 <span><img class="lazy" src="img/main/3.png" alt="Emoji meaning" width="150px"></span>
-                    <a href="E"> <button>All emojis</button></a>
+                    <a href="./allemojis.php"> <button>All emojis</button></a>
                 </div>
             </div>
         </div>

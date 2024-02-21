@@ -262,6 +262,7 @@ nav .links ul li a:hover{
     font-size: 35px;
     
 }
+
 @keyframes color{
     0%{
         background-position: 0 50%;
@@ -510,6 +511,7 @@ color: white;
 
 }
 
+
 .mainCatSlt{
     width: 100%;
     display: flex;
@@ -545,6 +547,15 @@ color: white;
 .mainCatSlt .mnSltBttn .mainBtnCover button p{
     font-size: 20px;
     padding: 2px;
+}
+
+.coppybarBackCovr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.coppybarBackCovr .cpppNewCovre{
+    width: 80%;
 }
 
 
@@ -678,6 +689,7 @@ color: white;
     justify-content: center;
     align-items: center;
 }
+
 @media only screen and (min-width:800px){
     .wpapper .disCover .display1 .displyBoder{
 
@@ -750,12 +762,30 @@ color: white;
     font-weight: bold;
 }
 
+.emojiMainBar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emojiMainBar .emojiBar{
+    width: 80%;
+   
+}
+.emojiMainBar .emojiBar .headinAllimoji{
+    width: 100%;
+    padding: 10px;background-color: goldenrod;
+    color: white;
+}
 @media only screen and (max-width:800px){
     .article .articleCover{
         width: 100%;
     }
     .article .articleBox{
         width: 90%;
+    }
+    .emojiMainBar .emojiBar{
+        width: 100%;
     }
 }
 

@@ -91,3 +91,4 @@ function clearSearchBox(){
     cppBox.value = '';
 }
 // coppy box cear button process end ----------------
+

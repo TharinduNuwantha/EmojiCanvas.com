@@ -5,10 +5,10 @@
             </div>
             <div class="links">
                 <ul>
-                    <li><a href="index.html" class="navLink-active">Home</a></li>
-                    <li><a href="#">Trends</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#" >All Templates</a></li>
+                    <li><a href="./" >Home</a></li>
+                    <li><a href="./topemoji.php">Trends</a></li>
+                    <li><a href="./">Blogs</a></li>
+                    <li><a href="./allemojis.php" >All emojis</a></li>
                 </ul>
             </div>
             <div class="menubars hide">
@@ -21,13 +21,11 @@
         <div class="mobileNav" id="mobileNav">
             <div class="mbNavItm">
                 <ul>
-                    <li><a href="index.html" >Home</a></li>
-                    <li><a href="#">Trends</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#" >All Templates</a></li>
-                    <li><a href="#" >New Templates</a></li>
-                    <li><a href="#" >Popular Templates</a></li>
-                    <li><a href="#" >Business Templates</a></li>
+                    <li><a href="./" >Home</a></li>
+                    <li><a href="./topemoji.php">Trends</a></li>
+                    <li><a href="./">Blogs</a></li>
+                    <li><a href="./allemojis.php" >All emojis</a></li>
+
                 </ul>
 
                 <div class="mb-logo">

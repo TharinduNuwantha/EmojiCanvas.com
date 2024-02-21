@@ -75,6 +75,11 @@ var Smiley_Face_Emojis = [
         unicode: 'U+1F913'
     },
     {
+        emoji: '🤓',
+        description: 'nerd emoji',
+        unicode: 'U+1F913'
+    },
+    {
         emoji: '🧐',
         description: 'Face with monocle',
         unicode: 'U+1F9D0'
@@ -3092,6 +3097,35 @@ var topImojis = [
         unicode: 'U+1F601'
     },
         {
+        emoji: '😛',
+        description: 'Face with tongue',
+        unicode: 'U+1F61B'
+    },    {
+        emoji: '😛',
+        description: 'Face with tongue',
+        unicode: 'U+1F61B'
+    },
+    {
+        emoji: '😜',
+        description: 'Winking face with tongue',
+        unicode: 'U+1F61C'
+    },
+    {
+        emoji: '🤪',
+        description: 'Zany face',
+        unicode: 'U+1F92A'
+    },
+    {
+        emoji: '😝',
+        description: 'Squinting face with tongue',
+        unicode: 'U+1F61D'
+    },
+    {
+        emoji: '🤑',
+        description: 'Money face with money tongue',
+        unicode: 'U+1F911'
+    },
+        {
         emoji: '💕',
         description: 'Two hearts',
         unicode: 'U+1F495'
@@ -3160,6 +3194,11 @@ var topImojis = [
         emoji: '😎',
         description: 'Smiling face with sunglasses',
         unicode: 'U+1F60E'
+    },
+        {
+        emoji: '😱',
+        description: 'Screaming face',
+        unicode: 'U+1F631'
     },
         {
         emoji: '👌',
@@ -3249,6 +3288,11 @@ var topImojis = [
         description: 'Skull',
         unicode: 'U+1F480'
     },
+        {
+        emoji: '👻',
+        description: 'Ghost',
+        unicode: 'U+1F47B'
+    },
      { emoji: '👑', meaning: 'Crown', unicode: 'U+1F451' },
      { emoji: '🎁', meaning: 'Wrapped gift', unicode: 'U+1F381' },
          {
@@ -3299,9 +3343,187 @@ var topImojis = [
         description: 'Heart with arrow',
         unicode: 'U+1F498'
     },
-    { emoji: '🌙', meaning: 'Crescent moon', unicode: 'U+1F319' }
+    { emoji: '🌙', meaning: 'Crescent moon', unicode: 'U+1F319' },
+        {
+        emoji: '👾',
+        description: 'Alien monster',
+        unicode: 'U+1F47E'
+    },
+    {
+        emoji: '🤖',
+        description: 'Robot',
+        unicode: 'U+1F916'
+    },
+        {
+        emoji: '💋',
+        description: 'Kiss',
+        unicode: 'U+1F48B'
+    },
+    {
+        emoji: '💌',
+        description: 'Love letter',
+        unicode: 'U+1F48C'
+    },
+    {
+        emoji: '💘',
+        description: 'Heart with arrow',
+        unicode: 'U+1F498'
+    },
+    {
+        emoji: '💝',
+        description: 'Heart with ribbon',
+        unicode: 'U+1F49D'
+    },
+    {
+        emoji: '💖',
+        description: 'Sparking heart',
+        unicode: 'U+1F496'
+    },
+    {
+        emoji: '💗',
+        description: 'Growing heart',
+        unicode: 'U+1F497'
+    },
+    {
+        emoji: '💓',
+        description: 'Beating heart',
+        unicode: 'U+1F493'
+    },
+    {
+        emoji: '💞',
+        description: 'Revolving heart',
+        unicode: 'U+1F49E'
+    },
+    {
+        emoji: '💕',
+        description: 'Two hearts',
+        unicode: 'U+1F495'
+    },
+    {
+        emoji: '💟',
+        description: 'Heart decoration',
+        unicode: 'U+1F49F'
+    },
+    {
+        emoji: '❣',
+        description: 'Heart exclamation',
+        unicode: 'U+2763'
+    },
+    {
+        emoji: '💔',
+        description: 'Broken heart',
+        unicode: 'U+1F494'
+    },
+    {
+        emoji: '❤️‍🔥',
+        description: 'Heart on fire',
+        unicode: 'U+2764'
+    },
+    {
+        emoji: '❤️‍🩹',
+        description: 'Mending heart',
+        unicode: 'U+2764'
+    },
+    {
+        emoji: '❤',
+        description: 'Red heart',
+        unicode: 'U+2764'
+    },
+    {
+        emoji: '🧡',
+        description: 'Orange heart',
+        unicode: 'U+1F9E1'
+    },
+    {
+        emoji: '💛',
+        description: 'Yellow heart',
+        unicode: 'U+1F49B'
+    },
+    {
+        emoji: '💚',
+        description: 'Green heart',
+        unicode: 'U+1F49A'
+    },
+    {
+        emoji: '💙',
+        description: 'Blue heart',
+        unicode: 'U+1F499'
+    },
+    {
+        emoji: '💜',
+        description: 'Purple heart',
+        unicode: 'U+1F49C'
+    },
+    {
+        emoji: '🤎',
+        description: 'Brown heart',
+        unicode: 'U+1F90E'
+    },
+    {
+        emoji: '🖤',
+        description: 'Black heart',
+        unicode: 'U+1F5A4'
+    },
+    {
+        emoji: '🤍',
+        description: 'White heart',
+        unicode: 'U+1F90D'
+    },
+    {
+        emoji: '💯',
+        description: 'Hundred(correct)',
+        unicode: 'U+1F4AF'
+    },
+    {
+        emoji: '💢',
+        description: 'Anger',
+        unicode: 'U+1F4A2'
+    },
+    {
+        emoji: '💥',
+        description: 'Collision',
+        unicode: 'U+1F4A5'
+    },
+    {
+        emoji: '💫',
+        description: 'Dizzy',
+        unicode: 'U+1F4AB'
+    },
+    {
+        emoji: '💦',
+        description: 'Sweat droplets',
+        unicode: 'U+1F4A6'
+    },
+     { emoji: '🔴', meaning: 'Red circle', unicode: 'U+1F534' },
+    { emoji: '🟠', meaning: 'Orange circle', unicode: 'U+1F7E0' },
+    { emoji: '🟡', meaning: 'Yellow circle', unicode: 'U+1F7E1' },
+    { emoji: '🟢', meaning: 'Green circle', unicode: 'U+1F7E2' },
+    { emoji: '🔵', meaning: 'Blue circle', unicode: 'U+1F535' },
+    { emoji: '🟣', meaning: 'Purple circle', unicode: 'U+1F7E3' },
+    { emoji: '🟤', meaning: 'Brown circle', unicode: 'U+1F7E4' },
+    { emoji: '⚫', meaning: 'Black circle', unicode: 'U+26AB' },
+    { emoji: '⚪', meaning: 'White circle', unicode: 'U+26AA' },
+    { emoji: '🟥', meaning: 'Red square', unicode: 'U+1F7E5' },
+    { emoji: '🟧', meaning: 'Orange square', unicode: 'U+1F7E5' },
+    { emoji: '🟨', meaning: 'Yellow square', unicode: 'U+1F7E8' },
+    { emoji: '🟩', meaning: 'Green square', unicode: 'U+1F7E9' },
+    { emoji: '🟦', meaning: 'Blue square', unicode: 'U+1F7E6' },
+    { emoji: '🟪', meaning: 'Purple square', unicode: 'U+1F7EA' },
+    { emoji: '🟫', meaning: 'Brown square', unicode: 'U+1F7EB' },
+    { emoji: '⬛', meaning: 'Black square', unicode: 'U+2B1B' },
+    { emoji: '⬜', meaning: 'White square', unicode: 'U+2B1C' },
+    { emoji: '🔶', meaning: 'Large orange diamond', unicode: 'U+1F536' },
+    { emoji: '🔷', meaning: 'Large blue diamond', unicode: 'U+1F537' },
+    { emoji: '🔸', meaning: 'Small orange diamond', unicode: 'U+1F538' },
+    { emoji: '🔹', meaning: 'Small blue diamond', unicode: 'U+1F539' },
+    { emoji: '🔺', meaning: 'Red triangle pointed up', unicode: 'U+1F53A' },
+    { emoji: '🔻', meaning: 'Red triangle pointed down', unicode: 'U+1F53B' },
+    { emoji: '💠', meaning: 'Diamond with a dot', unicode: 'U+1F4A0' },
+    { emoji: '🔘', meaning: 'Radio button', unicode: 'U+1F518' },
+    { emoji: '🔳', meaning: 'White square button', unicode: 'U+1F533' },
+    { emoji: '🔲', meaning: 'Black square button', unicode: 'U+1F532' },
+
 
     
 
 ];
-
