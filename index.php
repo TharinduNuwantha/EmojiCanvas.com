@@ -61,7 +61,7 @@
                     <div class="cppMsg"><p id="copiedMsg">Text copied to clipboard:</p></div>
                         <div class="display">
                             <button id="rightSlider" onClick="hideCppBar()"><img src="img/main/right-arrow-100.png" alt="hideBar" width="30px"></button>
-                            <input type="text" id="cppBox">
+                            <input type="text" id="cppBox" style="background-color:  #ffffff;">
                             <button id="clearSearchBox" class="clearSearchBox" onclick="clearSearchBox()">CL</button>
                             <button onclick="copyToClipboard()" id="cppBtn">Copy</button>
                         </div>

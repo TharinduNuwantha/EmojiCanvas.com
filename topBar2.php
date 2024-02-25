@@ -12,7 +12,7 @@
                 </ul>
             </div>
             <div class="menubars hide">
-                <img src="img/main/menu-bold.png" width="30px" id="bars" alt="bars">
+                <img src="../img/main/menu-bold.png" width="30px" id="bars" alt="bars">
             </div>
           </div> 
         </nav>
